@@ -1,0 +1,75 @@
+{"backend_state":"running","kernel":"python3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":84414464},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.6.9"}},"trust":true,"type":"settings"}
+{"cell_type":"code","exec_count":0,"id":"04032d","input":".str.contains()   ???","pos":47,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"045d23","input":"Nothern/Southern Europe?","pos":59,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"059011","input":"df_2014 = pd.read_csv('../data/food_training/training_2014.csv', header=1)","pos":7,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"134b28","input":"","pos":68,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"1645a8","input":"","pos":26,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"168f13","input":"TO DO: modifier les locations pour pouvoir faire un split   \nGarder un space a la fin pour faire un strip","pos":28,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"16da5a","input":"df_2014 = pd.read_csv('../data/food_training/training_2014.csv')","pos":5,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"1a264b","input":"to datetime","pos":50,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"1db4fe","input":"# Get the help for the drop method\n","pos":19,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"217737","input":"# Show the information relative to df's columns\n","pos":16,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"2c3289","input":"df['country'].str.strip()","pos":42,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"2c7f8e","input":"# Drop the Location column\n","pos":37,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"2d0249","input":"","pos":48,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"32f9ee","input":"# Load the data for the years 2015 and 2016\n\n","pos":9,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"3ad69c","input":"         # %load ../solutions/05_.py\ndf = df.drop('Location', axis=1)","pos":38,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"3c34e4","input":"","pos":30,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"41d4f5","input":"","pos":51,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"42fa57","input":"# import pandas\n","pos":2,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"4689c8","input":"df.shape","pos":14,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"486420","input":"df.head()","pos":36,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"49c3f8","input":"","pos":71,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"4ea431","input":"df['Location'].unique()","pos":29,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"5066cc","input":"","pos":55,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"52fdb3","input":"","pos":70,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"568db7","input":"# Drop the last two columns of df\n# labels: provide a list with the column's names\n# Don't forget the axis!\n\n","pos":22,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"5964ac","input":"         # %load ../solutions/05_.py\n?pd.DataFrame.drop","pos":20,"scrolled":true,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"5c7122","input":"","pos":39,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"5eeb10","input":"         # %load ../solutions/05_.py\ncols_to_remove = ['Unnamed: 5', 'Unnamed: 6']\ndf = df.drop(cols_to_remove, axis=1)","pos":23,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"7fc61a","input":"         # %load ../solutions/05_.py\nimport pandas as pd","pos":3,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"8c7193","input":"df.head()","pos":24,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"9125ea","input":"","pos":45,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"9669e1","input":"# Using the documentation, concatenate the 3 dataframe into one, named df\n\n","pos":12,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"9e9b43","input":"","pos":64,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"9f2e0a","input":"# \n","pos":34,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"a5d788","input":"","pos":40,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"a65464","input":"","pos":61,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"ac722a","input":"\ndf_2014.head()","pos":8,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"b408ea","input":"","pos":65,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"b44768","input":"sort by number of attendees (numbers)? By city (alphabetical)?","pos":63,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"b64c24","input":"","pos":53,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"b69dcd","input":".str.lower()   ???","pos":46,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"b6c278","input":"         # %load ../solutions/05_.py\nframes = [df_2014, df_2015, df_2016]\ndf = pd.concat(frames)","pos":13,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"b8cad3","input":"         # %load ../solutions/05_.py\ndf.info()","pos":17,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"b96976","input":"","pos":31,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"bf6295","input":"df['country'].value_counts()","pos":43,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"c04261","input":"","pos":60,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"c30806","input":"Note: could have done it when loading the parameter *parse_dates*","pos":52,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"c3775f","input":"filter > date","pos":54,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"cbd031","input":"df_2014.head()","pos":6,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"cef28c","input":"         # %load ../solutions/05_.py\ndf[['city', 'country']] = df['Location'].str.split(',', expand=True)","pos":35,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"d6440e","input":"group by country","pos":67,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"e0b55f","input":"df['country'].value_counts()","pos":41,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"e45f86","input":"dt.year (or month, then plot histo?)","pos":56,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"e5e8c4","input":"","pos":69,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"e9b2ff","input":"","pos":44,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"ef41a8","input":"         # %load ../solutions/05_.py\ndf_2015 = pd.read_csv('../data/food_training/training_2015.csv', header=1)\ndf_2016 = pd.read_csv('../data/food_training/training_2016.csv', header=1)","pos":10,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"fa4f4c","input":"","pos":25,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"fbdc8a","input":"","pos":57,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"ffbe4e","input":"","pos":27,"type":"cell"}
+{"cell_type":"markdown","id":"35f3cc","input":"## Concatenate\nhttps://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html","pos":11,"type":"cell"}
+{"cell_type":"markdown","id":"6c154a","input":"## Sorting values","pos":62,"type":"cell"}
+{"cell_type":"markdown","id":"7db9ac","input":"## Strings","pos":32,"type":"cell"}
+{"cell_type":"markdown","id":"91f5ff","input":"## Dropping columns","pos":15,"type":"cell"}
+{"cell_type":"markdown","id":"a992b5","input":"## Group By","pos":66,"type":"cell"}
+{"cell_type":"markdown","id":"aab2a6","input":"You can see that the default value for *axis* is *0*. When it is the case, the method will look at the rows (i.e. *axis 0*) of the dataframe.  \nIn our case, we want to drop columns (i.e. *axis 1*).","pos":21,"type":"cell"}
+{"cell_type":"markdown","id":"aec8f3","input":"We can see that the last two columns are empty, so we will drop them.","pos":18,"type":"cell"}
+{"cell_type":"markdown","id":"c399f6","input":"## Date time","pos":49,"type":"cell"}
+{"cell_type":"markdown","id":"da75ca","input":"# More Pandas","pos":0,"type":"cell"}
+{"cell_type":"markdown","id":"de5a35","input":"## Apply / Map","pos":58,"type":"cell"}
+{"cell_type":"markdown","id":"df71e0","input":"https://data.gov.uk/dataset/a59198d9-2e24-4816-be1b-c3a1efa02dda/better-training-for-safer-food  \nOpen Government Licence http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/","pos":4,"type":"cell"}
+{"cell_type":"markdown","id":"e8b04d","input":"***Note***: this notebook contains cell with ***a*** solution. Remember ther is not only one soltuion to a problem!  \nYou will recognise these cells as they start with **# %**.  \nIf you would like to see the soltion, you will have to remove the **#** (which can be done by using **Ctrl** and **?**) and run the cell. If you want to run the solution code, you will have to run the cell again.","pos":1,"type":"cell"}
+{"cell_type":"markdown","id":"f3d331","input":"split -> pattern, expand","pos":33,"type":"cell"}
+{"id":0,"time":1588798000244,"type":"user"}
+{"last_load":1588931100343,"type":"file"}

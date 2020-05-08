@@ -1,0 +1,1 @@
+'I' not in s

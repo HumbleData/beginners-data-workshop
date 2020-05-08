@@ -1,0 +1,1 @@
+len(dict_greeting)

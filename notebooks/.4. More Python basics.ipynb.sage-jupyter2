@@ -1,0 +1,64 @@
+{"backend_state":"ready","kernel":"python3","kernel_state":"idle","kernel_usage":{"cpu":24.642857142863544,"memory":35553280},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.6.9"}},"trust":true,"type":"settings"}
+{"cell_type":"code","exec_count":0,"id":"010f2b","input":"list(range(4))","pos":30,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"09d406","input":"","pos":17,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"10b5ab","input":"name = input('What is your name? ')\n\nif len(name) > 6:\n    print('You have a long name.')\nelse:\n    print('You have a short name.')","pos":25,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"14cce7","input":"","pos":28,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"16ae2e","input":"","pos":52,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"19d3b4","input":"","pos":40,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"1e3365","input":"","pos":37,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"1f8be7","input":"","pos":59,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"30c87a","input":"add(1, 3)","pos":55,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"3caf31","input":"","pos":58,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"3e2068","input":"","pos":56,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"3f9fcf","input":"","pos":21,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"3ffb02","input":"def is_greeting(s):\n    if s in list_greeting:\n        return True\n    else:\n        return False ","pos":47,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"591515","input":"","pos":26,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"640d1f","input":"is_greeting('Yo')","pos":50,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"64e8ab","input":"","pos":39,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"66ecc6","input":"","pos":36,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"7143f3","input":"is_greeting('Ola')","pos":49,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"735eac","input":"dict_greeting['Hawaii'] = 'Aloha'\nprint(dict_greeting)","pos":14,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"7bbd21","input":"","pos":60,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"80abb0","input":"def add(x, y):\n    \"\"\"Returns x + y\"\"\"\n    return x + y","pos":54,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"83ae8c","input":"","pos":57,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"85e94b","input":"","pos":51,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"88111f","input":"","pos":44,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"8e0c8f","input":"","pos":20,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"912b59","input":"","pos":35,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"91c71c","input":"# Get the greeting from Italy\n","pos":7,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"957e13","input":"","pos":46,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"9d619b","input":"for k in range(4):\n    print(k**2)","pos":31,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"a7942d","input":"","pos":18,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"aee004","input":"list_greeting = ","pos":45,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"b59d5d","input":"         # %load ../solutions/04_.py\ndict_greeting['UK'] = 'Good Morning'\nprint(dict_greeting)","pos":11,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"bcdfba","input":"","pos":32,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"be4cd5","input":"","pos":53,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"c5d5de","input":"# Add the greeting of 'Hawaii' as 'Aloha'\n","pos":13,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"d02ddd","input":"# Replace the UK greeting with 'Good Morning'\n","pos":10,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"d56645","input":"","pos":16,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"d8fb21","input":"","pos":33,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"d9d952","input":"","pos":41,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"dae11b","input":"","pos":22,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"ea79ac","input":"         # %load ../solutions/04_.py\ndict_greeting['Italy']","pos":8,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":1,"id":"877746","input":"x = \"green\"\ny = \"yellow\"\n\nif x == \"green\":\n    print('apple')\nelif y == \"yellow\":\n    print('banana')\nelse:\n    print('sandwich')","output":{"0":{"name":"stdout","output_type":"stream","text":"apple\n"}},"pos":27,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":43,"id":"9477c9","input":"dict_greeting = {'Namibia':'Hallo', 'France':'Bonjour', 'Spain':'Ola', 'UK':'Hello', 'Italy':'Ciao'}","pos":4,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":44,"id":"3bd93b","input":"dict_greeting   # there is no order in a dictionary","output":{"0":{"data":{"text/plain":"{'Namibia': 'Hallo',\n 'France': 'Bonjour',\n 'Spain': 'Ola',\n 'UK': 'Hello',\n 'Italy': 'Ciao'}"},"exec_count":44,"output_type":"execute_result"}},"pos":5,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"03d021","input":"**Keys are immutables (i.e. can't be changed) but values can be updated.**","pos":9,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"1b9df7","input":"## Dictionaries","pos":2,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"20ed34","input":"___\n## Tuples ???","pos":15,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"32750f","input":"___\n## For loop","pos":29,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"372536","input":"___\n## While loop","pos":34,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"40d436","input":"***Note***: this notebook contains cell with (a) solution. Remember ther is not only one soltuion to a problem!  \nYou will recognise these cells as they start with **# %**.  \nIf you would like to see the soltion, you will have to remove the **#** (which can be done by using **Ctrl** and **?**) and run the cell. If you want to run the solution code, you will have to run the cell again.","pos":1,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"422e5e","input":"**We can define our own functions with the keyword \"def\" followed by the name of the function and by parentheses with the parameter(s) inside.**  \n\nUsing the list **list_greeting**, define a **is_greeting** function which will decide if a string is a greeting.","pos":43,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"4a520a","input":"___\n## If - Else","pos":23,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"637b34","input":"**We can access values using the keys. between square brackets.**","pos":6,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"684141","input":"We can now check if **Ola** and **Yo** are greetings.","pos":48,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"6c0f4e","input":"# More Python basics","pos":0,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"71093c","input":"**A dictionary is formed of value-key pairs, separated by commas, enclosed in curly brackets ( {} ).  \nThe key and the value are separated by a column ( : ), i.e. key:value.**","pos":3,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"794b5c","input":"___\n## List comprehension","pos":38,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"b44eee","input":"___\n## Functions","pos":42,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"e7a73f","input":"\nLet's write a short program with an ***if*** statement to help us decide if a name is long or not (6 is completely arbitrary ;-)).  \nWe have to respect blocks  of codes / indentation.","pos":24,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"f8992d","input":"**We can also add new key-value pairs.**","pos":12,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"fa79b2","input":"___\n## Sets???","pos":19,"state":"done","type":"cell"}
+{"id":0,"time":1588895609102,"type":"user"}
+{"last_load":1588931100133,"type":"file"}

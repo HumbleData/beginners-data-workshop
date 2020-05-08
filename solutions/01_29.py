@@ -1,0 +1,1 @@
+'Ole' not in list_greeting

@@ -1,0 +1,1 @@
+len('Sandrine') > 5 & len('Cheuk') <7

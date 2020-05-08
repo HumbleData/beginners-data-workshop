@@ -1,0 +1,1 @@
+list_greeting[:4]

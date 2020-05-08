@@ -1,0 +1,1 @@
+len('Sandrine') > 8
