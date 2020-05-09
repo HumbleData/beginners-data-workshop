@@ -1,0 +1,10 @@
+### https://www.gitignore.io/ ###
+
+# Caches
+**/.ipynb_checkpoints/*
+**/__pycache__/*
+*.pyc
+
+# Other
+.DS_Store
+# .sage-jupyter2

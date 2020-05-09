@@ -1,0 +1,10 @@
+# joblib==0.14.1
+# jupyter-contrib-nbextensions==0.5.1
+jupyterlab==2.0.1
+# loguru==0.4.1
+# nb-black==1.0.7
+pandas==1.0.3
+pip-tools==5.1.2
+# seaborn==0.10.0
+# tqdm==4.46.0
+treon==0.1.3
