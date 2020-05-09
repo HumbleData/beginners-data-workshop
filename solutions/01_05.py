@@ -1,1 +1,1 @@
-'I\'m enjoing this workshop!'
+'I\'m enjoying this workshop!'

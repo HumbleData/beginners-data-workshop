@@ -5,6 +5,9 @@
 **/__pycache__/*
 *.pyc
 
+# CoCalc
+*.sage-chat
+*.sage-jupyter2
+
 # Other
 .DS_Store
-.sage-jupyter2
