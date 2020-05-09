@@ -45,7 +45,7 @@ pip install new-package-name
 pip freeze  # to check version number
 
 # copy paste package & version to requirements.in
-pip-compile requirements.in
+pip-compile
 pip-sync
 ```
 
