@@ -1,0 +1,1 @@
+df.loc[[145, 7, 0], ['PetalLengthCm', 'PetalWidthCm']]

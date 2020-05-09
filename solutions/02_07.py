@@ -1,0 +1,1 @@
+pd.options.display.max_rows = 25

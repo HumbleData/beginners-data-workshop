@@ -1,1 +1,1 @@
-len(dict_greeting)
+len(list_greeting)

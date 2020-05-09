@@ -1,166 +1,192 @@
-{"attachments":{"image.png":{"type":"sha1","value":"6f9e5b061b555f99b289abf14599dd0f0d661e34"}},"cell_type":"markdown","id":"9375f0","input":"![image.png](attachment:image.png)","pos":33,"state":"done","type":"cell"}
-{"backend_state":"ready","kernel":"python3","kernel_state":"idle","kernel_usage":{"cpu":24.14634146341249,"memory":46075904},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.6.9"}},"trust":true,"type":"settings"}
-{"cell_type":"code","exec_count":0,"id":"06fc38","input":"","pos":161,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"082883","input":"5 + 6 * 10 ","pos":84,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"0f7436","input":"# Check if the lenght of your name is greater than 8.\nlen()","pos":92,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"121960","input":"# Check if 10 is in list_greetings.\n","pos":125,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"168158","input":"# %load ../solutions/01_05.py","pos":27,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"19e432","input":"# %load ../solutions/01_01.py","pos":12,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"1a1bca","input":"# Check if 'Ole' is not in list_greetings.\n","pos":127,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"1acf74","input":"# %load ../solutions/01_16.py","pos":71,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"1bf02e","input":"# %load ../solutions/01_32.py","pos":139,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"1c5e3c","input":"# simple quotes\n","pos":23,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"1cfc5a","input":"s.upper()","pos":150,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"214438","input":"# Check if the lenght of your name is greater than 5 and the lenght of your mentor's name is less than 7.\n","pos":95,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"287be7","input":"","pos":132,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"29d09c","input":"# %load ../solutions/01_20.py","pos":91,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"2ed050","input":"# %load ../solutions/01_34.py","pos":145,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"2f3884","input":"# Check if s does not contain 'I'\n","pos":46,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"2f84aa","input":"s = 'I am a pythonista.'","pos":34,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"3070f5","input":"list_of_lists[0]       # acces the first element of the list, which is a list.","pos":118,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"32cd62","input":"'project cherokee'","pos":18,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"39598e","input":"","pos":160,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"39b78c","input":"# Selecting from the second to the fifth fourth caracters of the string s\ns[2:6]      # 6 is excluded","pos":40,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"3b07d7","input":"\"project cherokee\"","pos":19,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"429013","input":"# We can use comments to document our code in a coding cell.\nimport this # Zen of python","pos":2,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"456b9a","input":"# %load ../solutions/01_06.py","pos":38,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"45f073","input":"# Try the power of a float\n","pos":63,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"482d5e","input":"# Selecting the first caracter of the string s\ns[0]","pos":36,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"489f72","input":"False * 3","pos":89,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"4e1a0c","input":"# Checking if s contains 'python'\n'python' in s","pos":45,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"5196d4","input":"# %load ../solutions/01_21.py","pos":93,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"521941","input":"# Divide 19 by 5\n","pos":72,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"561a41","input":"# %load ../solutions/01_23.py","pos":102,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"5a7556","input":"# Select the last 3 caracters of the string s\n","pos":42,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"5bd348","input":"# %load ../solutions/01_30.py","pos":133,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"5cff2b","input":"","pos":141,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"5e72c3","input":"True == 1    # '==' is an equality operator,  different from '=' which is an assignment operator","pos":88,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"5f8605","input":"# Replace 10 with Ola in list_greetings, then print list_greeting to check it.\n\n","pos":114,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"64e65e","input":"# Try the floor division of 19 by 5\n","pos":76,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"64fb72","input":"# %load ../solutions/01_22.py","pos":96,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"66dc34","input":"# Get the items starting with the one with index 3 until the end of the list.\n","pos":104,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"6c3248","input":"# %load ../solutions/01_13.py","pos":64,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"7b7f31","input":"# double quotes\n","pos":21,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"82c742","input":"# %load ../solutions/01_28.py","pos":126,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"89eebd","input":"name = 'Sandrine'","pos":8,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"8e3715","input":"list_greeting = ['Hallo', 'Bonjour', 10, 'Hello', 'Ciao', False]","pos":99,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"93906e","input":"import numpy as np\nnp.sin(np.pi/4)","pos":157,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"97a32e","input":"# %load ../solutions/01_29.py","pos":128,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"9badd2","input":"print('Hello World!')","pos":4,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"9c8216","input":"# Try the floor division of 6 by 2\n","pos":70,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"9ebe90","input":"# Assign another string to the variable 'name' and print this variable\n\n","pos":14,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"a12697","input":"# %load ../solutions/01_18.py","pos":77,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"a1287d","input":"# %load ../solutions/01_24.py","pos":105,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"a21ec1","input":"# %load ../solutions/01_08.py","pos":47,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"a360e9","input":"","pos":144,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"a46d9b","input":"# Calculate 19 modulo 5\n","pos":79,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"a55305","input":"       # %load ../solutions/01_36.py\nlist_greeting.append('Aloha')","pos":152,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"a75df5","input":"# %load ../solutions/01_02.py","pos":15,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"a8a997","input":"# Using the append method, add 'Aloha' to list_greeting.\n","pos":151,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"a9ade6","input":"","pos":135,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"abeb72","input":"# %load ../solutions/01_11.py","pos":59,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"ad06dc","input":"(5 + 6)*10","pos":85,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"ae2ec9","input":"# %load ../solutions/01_15.py","pos":69,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"b36ff2","input":"# %load ../solutions/01_33.py","pos":142,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"b3f86c","input":"# %load ../solutions/01_17.py","pos":74,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"b765f2","input":"# Try multiplying two numbers.\n","pos":58,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"c25eb4","input":"# Try adding two numbers.\n","pos":52,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"c2cab5","input":"# %load ../solutions/01_04.py","pos":24,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"c412ce","input":"# Assign another string to the variable 'name' and print this variable\n\n","pos":11,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"c5da82","input":"# %load ../solutions/01_07.py","pos":43,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"c77300","input":"from math import sqrt\nsqrt(24336)","pos":159,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"c90844","input":"# %load ../solutions/01_12.py","pos":62,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"cd01c4","input":"# Get every other items from the list of greetings\n","pos":110,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"d28d0e","input":"# %load ../solutions/01_35.py","pos":147,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"d7d079","input":"","pos":138,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"d8d56e","input":"# %load ../solutions/01_31.py","pos":136,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"d8e1fd","input":"list_of_lists = [[1, 2, 3], [4, 5]]","pos":117,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"daf8b7","input":"[1, 2, 3] + [4, 5, 6]","pos":121,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"dbd4fb","input":"list_of_lists[0][-1]    # acces the last element of the first list.","pos":119,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"de7bf0","input":"list_greeting[-1] = 'Ave'\nprint(list_greeting)","pos":113,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"df5429","input":"'We are ' + 'everywhere around the world.'","pos":29,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"e0acc9","input":"# Try the power of an integer\n","pos":61,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"e192f4","input":"# Try substracting two numbers.\n","pos":55,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"e22a29","input":"# %load ../solutions/01_26.py","pos":111,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"e5dfea","input":"# to 1 decimal place\n","pos":146,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"e7563d","input":"# Get the first item of the list.\n","pos":101,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"e7bcd2","input":"# Divide 6 by 2\n","pos":68,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"ea7a95","input":"# simple quotes, second try\n","pos":26,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"ebed5e","input":"# Select the last caracter of the string s\n","pos":37,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"ecce6a","input":"# %load ../solutions/01_03.py","pos":22,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"f06e98","input":"","pos":162,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"f0a72c","input":"# %load ../solutions/01_09.py","pos":53,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"f14103","input":"print(name)","pos":9,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"f3c801","input":"# Using != , check if False is not egal to 2.\n","pos":90,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"f46a47","input":"# %load ../solutions/01_19.py","pos":80,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"f84294","input":"# Get the items from the beginning of the list until the value with index 4 (index 4 is excluded).\n","pos":107,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"fd55d9","input":"# %load ../solutions/01_10.py","pos":56,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"fe971e","input":"# %load ../solutions/01_14.py","pos":66,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"ff1195","input":"# Try the power of an integer written as a float (e.g. 12.0)\n","pos":65,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"ffb763","input":"# %load ../solutions/01_25.py","pos":108,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":3,"id":"b55c96","input":"'Great! '*3","output":{"0":{"data":{"text/plain":"'Great! Great! Great! '"},"exec_count":3,"output_type":"execute_result"}},"pos":31,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":5,"id":"335790","input":"['Hey']*5","output":{"0":{"data":{"text/plain":"['Hey', 'Hey', 'Hey', 'Hey', 'Hey']"},"exec_count":5,"output_type":"execute_result"}},"pos":123,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":6,"id":"bd4c64","input":"# %load ../solutions/01_27.py","pos":115,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"0f96ff","input":"**We can access a character of a string (which is considered as a string of lenght 1 by python) using slice, and a substring using slice range.   \n!!! Python's indices starts at 0!**","pos":32,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"12bfea","input":"**A list is a list of comma-separated values between square brackets.  \n!!! The items of a list can have different types.**","pos":98,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"133a91","input":"**We can update a list by re-assigning a value selected using a slice.**  \nFor exemple, we can replace False with 'Ave' in list_greeting.","pos":112,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"1b3e0e","input":"**Soustraction:**","pos":54,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"1e4a68","input":"**Compute the lenght of name.**","pos":137,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"215c2e","input":"**A small warning**  \nEnsure you trust the packages you're installing. Ask: who wrote this code? Do I trust giving their code access to my computer? pip especially can be a little more dangerous, anyone can upload something to PyPI (where pip installs from), so be careful especially as the smallest typo can be a security risk. conda is more of a walled garden and as such much better positioned for enterprise usage.","pos":155,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"26c7d8","input":"**We can also use *in / not in* with lists.**  ","pos":124,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"28c8f5","input":"**Round the number 123.45**","pos":143,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"2fbfff","input":"**The order of operations in python respects the Mathematical order. Remember to use brackets if needed.**","pos":83,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"3b23ba","input":"**!!! Variable can can change type when re-assigned.**","pos":13,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"3c84e2","input":"*Note*: division returns a float.","pos":73,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"3f58e0","input":"**Some functions are always available in python. You can find them here:**   \nhttps://docs.python.org/3/library/functions.html","pos":130,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"4440f7","input":"## Numbers","pos":48,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"465639","input":"***Slice***  \nWe can access characters of a string by referencing index numbers between square brackets.","pos":35,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"4c8860","input":"**Multiplication:**  \nThe sign for multiplication is *.","pos":57,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"53cf88","input":"## Boolean","pos":86,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"54b017","input":"# Importing modules","pos":153,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"589b8a","input":"**--> Simple is better than complex.**  \nIt is really easy to print ***Hello World*** in python:","pos":3,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"60e19b","input":"**Modulo returns the remainder of the division**","pos":78,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"627f92","input":"# Methods","pos":148,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"6ac83a","input":"**Write *I'm enjoing this workshop!* using double quotes, and then single quotes.**","pos":20,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"6bdad7","input":"**The floor division returns an int, the fractional part.**","pos":75,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"6c249f","input":"**Booleans are the two constant values TRUE and FALSE. Their numerical values are 1 and 0.**","pos":87,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"6ccd62","input":"**Get every the items from the list, starting with the 4th one.**  \nNote than there is no need to put a number after the columns when when want to select until the end of the list.","pos":103,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"7a405e","input":"We can skip the start (resp. stop) number. Then it start form index 0 (resp. end at the hisghest index).","pos":41,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"8b9b5a","input":"**Advanced slicing allows to set how th list's index will increment between the indexes that we will select.**  \nThe slicing then looks like this: [start:stop:step]  \nFor example, if we want to select every third items of a list, we will set the step as 3.","pos":109,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"8cc2c4","input":"From the **math** library, import **sqrt** to work out the square root of **24 336**.","pos":158,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"92308e","input":"**We can use the *and* ( & ) and *or* ( | ) operators with booleans.**  ","pos":94,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"93130e","input":"# Built-in functions","pos":129,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"946cdb","input":"**A method is a function associated to an object.**  \nFor example, we can change the string s to upper cases using the *upper* method.","pos":149,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"964742","input":"**Division and modulo**  \nThe sign for division is /.  \nThe sign for floor division is //. It returns the quotient of a division.  \nThe % sign is the modulo, which returns the reminder after division.","pos":67,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"9a16a3","input":"**Work out the maximum of 1, 2, 3, 4 and 5.**","pos":140,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"9b295c","input":"**Python is an object oriented programming language. You do not need to declare variables (or their types) before using them as every variable in python is an object.** ","pos":7,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"a33080","input":"**If using single quotes, you'll have to escape the apostrophe with a backslash ( \\\\ ).**","pos":25,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"a5ac7e","input":"**Addition:**","pos":51,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"b6a408","input":"**We can concatenate lists using ' + '.**","pos":120,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"b8838f","input":"## List","pos":97,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"be3122","input":"### Basic Operators","pos":50,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"be4d98","input":"**Strings can be multiplied by a number.**","pos":30,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"bea617","input":"**Strings can be added.**","pos":28,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"c086b1","input":"## Variable","pos":6,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"c2e650","input":"### Order of operations","pos":82,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"c65296","input":"**--> 19 = 3 * 5 + 4**","pos":81,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"c6ce01","input":"**We can access a single value using a slice, and several values using slice range.**  ","pos":100,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"c82042","input":"***Note***: this notebook contains cell with ***a*** solution. Remember ther is not only one soltuion to a problem!  \nYou will recognise these cells as they start with **# %**.  \nIf you would like to see the soltion, you will have to remove the **#** (which can be done by using **Ctrl** and **?**) and run the cell. If you want to run the solution code, you will have to run the cell again.","pos":1,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"c826f7","input":"**Exponent:**  \nThe sign for exponent (or power) is **.","pos":60,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"ca21f2","input":"# Introduction to Python","pos":0,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"cee576","input":"**We can have lists inside a list:**","pos":116,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"d0b054","input":"**Compute the lenght of the variable *name*.**","pos":134,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"d211df","input":"**PEP 8 is Python's style guide. You can find it here:**  \nhttps://www.python.org/dev/peps/pep-0008/","pos":5,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"d45695","input":"**We can also use the multiplication to repeat values in a list.**","pos":122,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"d46b93","input":"**Python has different numerical types. The two which are used more often are integers and floating numbers.**","pos":49,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"ddc4a5","input":"Import **numpy** as **np** and work out **sin(pi/4)**.","pos":156,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"ddfe1a","input":"**Print *'Here we are!'*.**","pos":131,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"de66c7","input":"**Get every the items from the list until the 4th one.**","pos":106,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"e38394","input":"**We can check if a string contains a substring or  not using *in* / *not in*.**","pos":44,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"e77d77","input":"## String","pos":16,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"e7a67a","input":"**Variables can easilly be updated.**","pos":10,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"e941c7","input":"***Slice range***  \nWe can get a range of characters of a string by using a slicing range.","pos":39,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"ea7af8","input":"**We can import modules (Python code that can define functions, classes and variables).   \nUsually, we write all the import at the beginning of a programm/notebook.**","pos":154,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"f6a180","input":"**A string always begins and ends with a single ( ' ) or double ( \" ) quotes. There is no difference, except if there is an apostrophe ( ' ) inside the string...**","pos":17,"state":"done","type":"cell"}
-{"id":0,"time":1588793607189,"type":"user"}
-{"last_load":1588931101548,"type":"file"}
+{"attachments":{"image.png":{"type":"sha1","value":"6f9e5b061b555f99b289abf14599dd0f0d661e34"}},"cell_type":"markdown","id":"9375f0","input":"![image.png](attachment:image.png)","pos":36,"type":"cell"}
+{"backend_state":"running","kernel":"python3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":83632128},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.6.9"}},"trust":true,"type":"settings"}
+{"cell_type":"code","exec_count":0,"id":"003ffb","input":"","pos":124,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"082883","input":"5 + 6 * 10 ","pos":96,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"0c69d4","input":"","pos":187,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"0f7436","input":"len()","pos":106,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"168158","input":"# %load ../solutions/01_05.py","pos":30,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"19e432","input":"# %load ../solutions/01_01.py","pos":14,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"1acf74","input":"# %load ../solutions/01_16.py","pos":81,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"1bf02e","input":"# %load ../solutions/01_32.py","pos":160,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"1c5e3c","input":"# simple quotes\n","pos":26,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"1cfc5a","input":"s.upper()","pos":172,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"1d83a1","input":"","pos":128,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"214438","input":"","pos":109,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"287be7","input":"","pos":153,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"29d09c","input":"# %load ../solutions/01_20.py","pos":104,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"2ed050","input":"# %load ../solutions/01_34.py","pos":166,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"2f84aa","input":"s = 'I am a pythonista.'","pos":37,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"3070f5","input":"list_of_lists[0]       # acces the first element of the list, which is a list.","pos":137,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"32cd62","input":"'project cherokee'","pos":21,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"335790","input":"['Hey']*5","pos":142,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"3585ff","input":"","pos":73,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"391670","input":"","pos":80,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"39b78c","input":"# Selecting from the second to the fifth fourth caracters of the string s\ns[2:6]      # 6 is excluded","pos":44,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"3b07d7","input":"\"project cherokee\"","pos":22,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"429013","input":"# We can use comments to document our code in a coding cell.\nimport this # Zen of python","pos":3,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"456b9a","input":"# %load ../solutions/01_06.py","pos":42,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"482d5e","input":"# Selecting the first caracter of the string s\ns[0]","pos":39,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"489f22","input":"","pos":116,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"489f72","input":"False * 3","pos":101,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"4baab0","input":"","pos":183,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"4e1a0c","input":"# Checking if s contains 'python'\n'python' in s","pos":50,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"5196d4","input":"# %load ../solutions/01_21.py","pos":107,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"561a41","input":"# %load ../solutions/01_23.py","pos":117,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"59209a","input":"","pos":83,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"5bd348","input":"# %load ../solutions/01_30.py","pos":154,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"5cff2b","input":"","pos":162,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"5e72c3","input":"True == 1    # '==' is an equality operator,  different from '=' which is an assignment operator","pos":100,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"64e65e","input":"","pos":87,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"64f77e","input":"","pos":13,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"64fb72","input":"# %load ../solutions/01_22.py","pos":110,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"678e54","input":"","pos":61,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"6c3248","input":"# %load ../solutions/01_13.py","pos":71,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"75cf29","input":"","pos":145,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"79bdbf","input":"","pos":64,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"7b7f31","input":"# double quotes\n","pos":24,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"7fa632","input":"","pos":180,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"7fc3e5","input":"","pos":148,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"82c742","input":"# %load ../solutions/01_28.py","pos":146,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"840c33","input":"","pos":41,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"88cb89","input":"","pos":58,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"89ba46","input":"","pos":70,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"89bd9d","input":"","pos":103,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"89eebd","input":"name = 'Sandrine'","pos":9,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"8e3715","input":"list_greeting = ['Hallo', 'Bonjour', 10, 'Hello', 'Ciao', False]","pos":113,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"93906e","input":"# %load ../solutions/01_38.py","pos":184,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"954f43","input":"","pos":77,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"97a32e","input":"# %load ../solutions/01_29.py","pos":149,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"9badd2","input":"print('Hello World!')","pos":5,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"a12697","input":"# %load ../solutions/01_18.py","pos":88,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"a1287d","input":"# %load ../solutions/01_24.py","pos":121,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"a21ec1","input":"# %load ../solutions/01_08.py","pos":53,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"a360e9","input":"","pos":165,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"a55305","input":"# %load ../solutions/01_36.py","pos":175,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"a75df5","input":"# %load ../solutions/01_02.py","pos":18,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"a7fd0d","input":"","pos":188,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"a9ade6","input":"","pos":156,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"abeb72","input":"# %load ../solutions/01_11.py","pos":65,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"ad06dc","input":"(5 + 6)*10","pos":97,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"ae2ec9","input":"# %load ../solutions/01_15.py","pos":78,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"b36ff2","input":"# %load ../solutions/01_33.py","pos":163,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"b3f86c","input":"# %load ../solutions/01_17.py","pos":84,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"b55c96","input":"'Great! '*3","pos":34,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"bd4c64","input":"# %load ../solutions/01_27.py","pos":134,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"bf7647","input":"","pos":47,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"bf89a3","input":"","pos":17,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"c25eb4","input":"","pos":0,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"c2cab5","input":"# %load ../solutions/01_04.py","pos":27,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"c40c4b","input":"","pos":91,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"c5da82","input":"# %load ../solutions/01_07.py","pos":48,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"c77300","input":"# %load ../solutions/01_37.py","pos":181,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"c90844","input":"# %load ../solutions/01_12.py","pos":68,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"cba580","input":"","pos":52,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"d28d0e","input":"# %load ../solutions/01_35.py","pos":169,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"d4ab01","input":"","pos":174,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"d7810c","input":"","pos":186,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"d7d079","input":"","pos":159,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"d8d56e","input":"# %load ../solutions/01_31.py","pos":157,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"d8e1fd","input":"list_of_lists = [[1, 2, 3], [4, 5]]","pos":136,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"daf8b7","input":"[1, 2, 3] + [4, 5, 6]","pos":140,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"dbd4fb","input":"list_of_lists[0][-1]    # acces the last element of the first list.","pos":138,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"de7bf0","input":"list_greeting[-1] = 'Ave'\nprint(list_greeting)","pos":131,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"df5429","input":"'We are ' + 'everywhere around the world.'","pos":32,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"e0acc9","input":"","pos":67,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"e2037b","input":"","pos":133,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"e22a29","input":"# %load ../solutions/01_26.py","pos":129,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"e5dfea","input":"","pos":168,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"ea7a95","input":"# simple quotes, second try\n","pos":29,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"ecce6a","input":"# %load ../solutions/01_03.py","pos":25,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"f06e98","input":"","pos":185,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"f0a72c","input":"# %load ../solutions/01_09.py","pos":59,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"f14103","input":"print(name)","pos":10,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"f46a47","input":"# %load ../solutions/01_19.py","pos":92,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"f65ae4","input":"","pos":120,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"fd55d9","input":"# %load ../solutions/01_10.py","pos":62,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"fe971e","input":"# %load ../solutions/01_14.py","pos":74,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"ffb763","input":"# %load ../solutions/01_25.py","pos":125,"type":"cell"}
+{"cell_type":"markdown","id":"070603","input":">Round the number 123.45 to 1 decimal place.","pos":167,"type":"cell"}
+{"cell_type":"markdown","id":"0f96ff","input":"**We can access a character of a string (which is considered as a string of lenght 1 by python) using slice, and a substring using slice range.   \n!!! Python's indices starts at 0!**","pos":35,"type":"cell"}
+{"cell_type":"markdown","id":"121960","input":">Check if 10 is in list_greetings.","pos":144,"type":"cell"}
+{"cell_type":"markdown","id":"12bfea","input":"**A list is a list of comma-separated values between square brackets.  \n!!! The items of a list can have different types.**","pos":112,"type":"cell"}
+{"cell_type":"markdown","id":"133a91","input":"**We can update a list by re-assigning a value selected using a slice.**  \nFor exemple, we can replace False with 'Ave' in list_greeting.","pos":130,"type":"cell"}
+{"cell_type":"markdown","id":"1a1bca","input":">Check if 'Ole' is not in list_greetings.","pos":147,"type":"cell"}
+{"cell_type":"markdown","id":"1b3e0e","input":"**Soustraction:**  \n>Try substracting two numbers.","pos":60,"type":"cell"}
+{"cell_type":"markdown","id":"1e4a68","input":">Compute the lenght of list_greeting.","pos":158,"type":"cell"}
+{"cell_type":"markdown","id":"215c2e","input":"**A small warning**  \nEnsure you trust the packages you're installing. Ask: who wrote this code? Do I trust giving their code access to my computer? pip especially can be a little more dangerous, anyone can upload something to PyPI (where pip installs from), so be careful especially as the smallest typo can be a security risk. conda is more of a walled garden and as such much better positioned for enterprise usage.","pos":178,"type":"cell"}
+{"cell_type":"markdown","id":"26c7d8","input":"**We can also use *in / not in* with lists.**  ","pos":143,"type":"cell"}
+{"cell_type":"markdown","id":"28c8f5","input":">Round the number 123.45 to the nearest integer.","pos":164,"type":"cell"}
+{"cell_type":"markdown","id":"2f3884","input":">Check if s does not contain 'I'","pos":51,"type":"cell"}
+{"cell_type":"markdown","id":"2fbfff","input":"**The order of operations in python respects the Mathematical order. Remember to use brackets if needed.**","pos":95,"type":"cell"}
+{"cell_type":"markdown","id":"3b23ba","input":"**!!! Variable can can change type when re-assigned.**","pos":15,"type":"cell"}
+{"cell_type":"markdown","id":"3c84e2","input":"*Note*: division returns a float.","pos":85,"type":"cell"}
+{"cell_type":"markdown","id":"3f58e0","input":"**Some functions are always available in python. You can find them here:**   \nhttps://docs.python.org/3/library/functions.html","pos":151,"type":"cell"}
+{"cell_type":"markdown","id":"4440f7","input":"## Numbers","pos":54,"type":"cell"}
+{"cell_type":"markdown","id":"45f073","input":">Try the power of a float","pos":69,"type":"cell"}
+{"cell_type":"markdown","id":"465639","input":"***Slice***  \nWe can access characters of a string by referencing index numbers between square brackets.","pos":38,"type":"cell"}
+{"cell_type":"markdown","id":"4c8860","input":"**Multiplication:**  \nThe sign for multiplication is *.  \n>Try multiplying two numbers.","pos":63,"type":"cell"}
+{"cell_type":"markdown","id":"521941","input":">Divide 19 by 5","pos":82,"type":"cell"}
+{"cell_type":"markdown","id":"53cf88","input":"## Boolean","pos":98,"type":"cell"}
+{"cell_type":"markdown","id":"54b017","input":"# Importing modules","pos":176,"type":"cell"}
+{"cell_type":"markdown","id":"589b8a","input":"**--> Simple is better than complex.**  \nIt is really easy to print ***Hello World*** in python:","pos":4,"type":"cell"}
+{"cell_type":"markdown","id":"5a7556","input":">Select the last 3 caracters of the string s","pos":46,"type":"cell"}
+{"cell_type":"markdown","id":"5f8605","input":">Replace 10 with Ola in list_greetings, then print list_greeting to check it.","pos":132,"type":"cell"}
+{"cell_type":"markdown","id":"60e19b","input":"**Modulo returns the remainder of the division**","pos":89,"type":"cell"}
+{"cell_type":"markdown","id":"627f92","input":"# Methods","pos":170,"type":"cell"}
+{"cell_type":"markdown","id":"66dc34","input":">Get the items starting with the one with index 3 until the end of the list.","pos":119,"type":"cell"}
+{"cell_type":"markdown","id":"6ac83a","input":">Write *I'm enjoing this workshop!* using double quotes, and then single quotes.","pos":23,"type":"cell"}
+{"cell_type":"markdown","id":"6bdad7","input":"**The floor division returns an int, the fractional part.**  \n>Try the floor division of 19 by 5","pos":86,"type":"cell"}
+{"cell_type":"markdown","id":"6c249f","input":"**Booleans are the two constant values TRUE and FALSE. Their numerical values are 1 and 0.**","pos":99,"type":"cell"}
+{"cell_type":"markdown","id":"6ccd62","input":"**Get every the items from the list, starting with the 4th one.**  \nNote than there is no need to put a number after the columns when when want to select until the end of the list.","pos":118,"type":"cell"}
+{"cell_type":"markdown","id":"7a405e","input":"We can skip the start (resp. stop) number. Then it start form index 0 (resp. end at the hisghest index).","pos":45,"type":"cell"}
+{"cell_type":"markdown","id":"8b9b5a","input":"**Advanced slicing allows to set how th list's index will increment between the indexes that we will select.**  \nThe slicing then looks like this: [start:stop:step]  \nFor example, if we want to select every third items of a list, we will set the step as 3.","pos":126,"type":"cell"}
+{"cell_type":"markdown","id":"8cc2c4","input":">From the **math** library, import **sqrt** to work out the square root of **24 336**.","pos":179,"type":"cell"}
+{"cell_type":"markdown","id":"92308e","input":"**We can use the *and* ( & ) and *or* ( | ) operators with booleans.**   \n>Check if the lenght of your name is greater than 5 and the lenght of your mentor's name is less than 7.","pos":108,"type":"cell"}
+{"cell_type":"markdown","id":"93130e","input":"# Built-in functions","pos":150,"type":"cell"}
+{"cell_type":"markdown","id":"946cdb","input":"**A method is a function associated to an object.**  \nFor example, we can change the string s to upper cases using the *upper* method.","pos":171,"type":"cell"}
+{"cell_type":"markdown","id":"964742","input":"**Division and modulo**  \nThe sign for division is /.  \nThe sign for floor division is //. It returns the quotient of a division.  \nThe % sign is the modulo, which returns the reminder after division.","pos":75,"type":"cell"}
+{"cell_type":"markdown","id":"9a16a3","input":">Work out the maximum of 1, 2, 3, 4 and 5.","pos":161,"type":"cell"}
+{"cell_type":"markdown","id":"9b295c","input":"**Python is an object oriented programming language. You do not need to declare variables (or their types) before using them as every variable in python is an object.** ","pos":8,"type":"cell"}
+{"cell_type":"markdown","id":"9c8216","input":">Try the floor division of 6 by 2","pos":79,"type":"cell"}
+{"cell_type":"markdown","id":"9ebe90","input":">Assign another string to the variable 'name' and print this variable","pos":16,"type":"cell"}
+{"cell_type":"markdown","id":"a33080","input":"**If using single quotes, you'll have to escape the apostrophe with a backslash ( \\\\ ).**  \n>Let's do it again.","pos":28,"type":"cell"}
+{"cell_type":"markdown","id":"a46d9b","input":">Calculate 19 modulo 5","pos":90,"type":"cell"}
+{"cell_type":"markdown","id":"a5ac7e","input":"**Addition:**  \n>Try adding two numbers.","pos":57,"type":"cell"}
+{"cell_type":"markdown","id":"a8a997","input":">Using the append method, add 'Aloha' to list_greeting.","pos":173,"type":"cell"}
+{"cell_type":"markdown","id":"b6a408","input":"**We can concatenate lists using ' + '.**","pos":139,"type":"cell"}
+{"cell_type":"markdown","id":"b8838f","input":"## List","pos":111,"type":"cell"}
+{"cell_type":"markdown","id":"be3122","input":"### Basic Operators","pos":56,"type":"cell"}
+{"cell_type":"markdown","id":"be4d98","input":"**Strings can be multiplied by a number.**","pos":33,"type":"cell"}
+{"cell_type":"markdown","id":"bea617","input":"**Strings can be added.**","pos":31,"type":"cell"}
+{"cell_type":"markdown","id":"c086b1","input":"## Variable","pos":7,"type":"cell"}
+{"cell_type":"markdown","id":"c2e650","input":"### Order of operations","pos":94,"type":"cell"}
+{"cell_type":"markdown","id":"c412ce","input":">Assign another string to the variable 'name' and print this variable","pos":12,"type":"cell"}
+{"cell_type":"markdown","id":"c65296","input":"**--> 19 = 3 * 5 + 4**","pos":93,"type":"cell"}
+{"cell_type":"markdown","id":"c6ce01","input":"**We can access a single value using a slice, and several values using slice range.**  ","pos":114,"type":"cell"}
+{"cell_type":"markdown","id":"c82042","input":"***Note***: this notebook contains cell with ***a*** solution. Remember ther is not only one soltuion to a problem!  \nYou will recognise these cells as they start with **# %**.  \nIf you would like to see the soltion, you will have to remove the **#** (which can be done by using **Ctrl** and **?**) and run the cell. If you want to run the solution code, you will have to run the cell again.","pos":2,"type":"cell"}
+{"cell_type":"markdown","id":"c826f7","input":"**Exponent:**  \nThe sign for exponent (or power) is **.  \n>Try the power of an integer","pos":66,"type":"cell"}
+{"cell_type":"markdown","id":"ca21f2","input":"# Introduction to Python","pos":1,"type":"cell"}
+{"cell_type":"markdown","id":"cd01c4","input":">Get every other items from the list of greetings","pos":127,"type":"cell"}
+{"cell_type":"markdown","id":"cee576","input":"**We can have lists inside a list:**","pos":135,"type":"cell"}
+{"cell_type":"markdown","id":"d0b054","input":">Compute the lenght of the variable *name*.","pos":155,"type":"cell"}
+{"cell_type":"markdown","id":"d211df","input":"**PEP 8 is Python's style guide. You can find it here:**  \nhttps://www.python.org/dev/peps/pep-0008/","pos":6,"type":"cell"}
+{"cell_type":"markdown","id":"d45695","input":"**We can also use the multiplication to repeat values in a list.**","pos":141,"type":"cell"}
+{"cell_type":"markdown","id":"d46b93","input":"**Python has different numerical types. The two which are used more often are integers and floating numbers.**","pos":55,"type":"cell"}
+{"cell_type":"markdown","id":"ddc4a5","input":">Import **numpy** as **np** and work out **sin(pi/4)**.","pos":182,"type":"cell"}
+{"cell_type":"markdown","id":"ddfe1a","input":">Print *'Here we are!'*.","pos":152,"type":"cell"}
+{"cell_type":"markdown","id":"de66c7","input":"**Get every the items from the list until the 4th one.**","pos":122,"type":"cell"}
+{"cell_type":"markdown","id":"e38394","input":"**We can check if a string contains a substring or  not using *in* / *not in*.**","pos":49,"type":"cell"}
+{"cell_type":"markdown","id":"e7563d","input":">Get the first item of the list.","pos":115,"type":"cell"}
+{"cell_type":"markdown","id":"e77d77","input":"## String","pos":19,"type":"cell"}
+{"cell_type":"markdown","id":"e7a67a","input":"**Variables can easilly be updated.**","pos":11,"type":"cell"}
+{"cell_type":"markdown","id":"e7bcd2","input":">Divide 6 by 2","pos":76,"type":"cell"}
+{"cell_type":"markdown","id":"e941c7","input":"***Slice range***  \nWe can get a range of characters of a string by using a slicing range.","pos":43,"type":"cell"}
+{"cell_type":"markdown","id":"ea7af8","input":"**We can import modules (Python code that can define functions, classes and variables).   \nUsually, we write all the import at the beginning of a programm/notebook.**","pos":177,"type":"cell"}
+{"cell_type":"markdown","id":"ebed5e","input":">Select the last caracter of the string s","pos":40,"type":"cell"}
+{"cell_type":"markdown","id":"f3c801","input":">Using ***!=*** , check if False is not egal to 2.\n","pos":102,"type":"cell"}
+{"cell_type":"markdown","id":"f6a180","input":"**A string always begins and ends with a single ( ' ) or double ( \" ) quotes. There is no difference, except if there is an apostrophe ( ' ) inside the string...**","pos":20,"type":"cell"}
+{"cell_type":"markdown","id":"f84294","input":">Get the items from the beginning of the list until the value with index 4 (index 4 is excluded).","pos":123,"type":"cell"}
+{"cell_type":"markdown","id":"fed099","input":">Check if the lenght of your name is greater than 8.","pos":105,"type":"cell"}
+{"cell_type":"markdown","id":"ff1195","input":">Try the power of an integer written as a float (e.g. 12.0)","pos":72,"type":"cell"}
+{"id":0,"time":1589019691768,"type":"user"}
+{"last_load":1589019691795,"type":"file"}

@@ -1,4 +1,4 @@
-{"backend_state":"running","kernel":"python3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":83693568},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.6.9"}},"trust":true,"type":"settings"}
+{"backend_state":"running","kernel":"python3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":83525632},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.6.9"}},"trust":true,"type":"settings"}
 {"cell_type":"code","exec_count":0,"id":"00674c","input":"","pos":20,"type":"cell"}
 {"cell_type":"code","exec_count":0,"id":"038e95","input":"","pos":36,"type":"cell"}
 {"cell_type":"code","exec_count":0,"id":"3ec142","input":"","pos":32,"type":"cell"}
@@ -41,5 +41,5 @@
 {"cell_type":"markdown","id":"d3bb2a","input":"So far we are not using `matplotlib.pyplot` directly. Although it is very convinent to use `df.plot()`, sometimes we would like to have more control with what we are plotting and make more complex graphs. In the following sections, we will use `matplotlib.pyplot` (which is imported as `plt` now) directly","pos":21,"type":"cell"}
 {"cell_type":"markdown","id":"d9160f","input":"### Making subplots exercise\n\nMake 2 subplots, one on top of another. They are scatter plots of Petal Length and Petal Width (with different type of iris). After you have done it, try also other orientation and plots. See if you can make 4 subplots together. Always make sure the presentation is good.","pos":39,"type":"cell"}
 {"cell_type":"markdown","id":"e6e26b","input":"#### Note on advance material\n\nCheck out more example of histogram with multiple data sets: https://matplotlib.org/gallery/statistics/histogram_multihist.html#sphx-glr-gallery-statistics-histogram-multihist-py\n\nExample: Creates histogram from scatter plot and adds them to the sides of the plot\nhttps://matplotlib.org/gallery/lines_bars_and_markers/scatter_hist.html#sphx-glr-gallery-lines-bars-and-markers-scatter-hist-py\n\nThere are a lot more to learn about matplotlib. It is a very powerful library. You can always learn more by looking at the examples at: https://matplotlib.org/gallery/index.html\n\nAlso, if you are stucked, always check the documentation: https://matplotlib.org/api/_as_gen/matplotlib.pyplot.html#module-matplotlib.pyplot","pos":41,"type":"cell"}
-{"id":0,"time":1588790484223,"type":"user"}
-{"last_load":1588790484718,"type":"file"}
+{"id":0,"time":1588978400086,"type":"user"}
+{"last_load":1588978400988,"type":"file"}

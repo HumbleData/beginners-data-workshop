@@ -1,0 +1,1 @@
+df.loc[151:, 'SepalLengthCm']

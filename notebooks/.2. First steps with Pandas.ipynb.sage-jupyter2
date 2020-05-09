@@ -1,129 +1,149 @@
-{"backend_state":"ready","kernel":"python3","kernel_state":"idle","kernel_usage":{"cpu":23.641304347824217,"memory":40521728},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.6.9"}},"trust":true,"type":"settings"}
-{"cell_type":"code","exec_count":0,"id":"011d74","input":"df_4.to_csv('../data/my_data/my_iris.csv')","pos":124,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"0a0ede","input":"# Import numpy using the convention seen at the end of the first notebook.\n","pos":11,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"0aef87","input":"# checking the shape of df_4\ndf_4.shape","pos":102,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"0c0cf5","input":"# Use the dropna method to remove the row of df which only has nan values, and assign it to df_2\n","pos":87,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"0c2a23","input":"df.iloc[-3:, 1]","pos":46,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"0dde51","input":"df_4","pos":106,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"0e6214","input":"# Using the index attribute, get the indexes of the observation without PetalLengthCm\n","pos":82,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"11544d","input":"df_4.corr()","pos":122,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"13bf90","input":"df['Species'].nunique()","pos":63,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"15e019","input":"df.info()","pos":28,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"192912","input":"# Show the shape of df (do not put brackets at the end)\n","pos":25,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"1942b6","input":"         # %load ../solutions/02_.py\npd.options.display.max_rows = 25","pos":36,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"1a9bcb","input":"         # %load ../solutions/02_.py\ndf.tail(3)","pos":22,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"1c8d7a","input":"         # %load ../solutions/02_.py\ndf_4.dtypes","pos":113,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"21061e","input":"","pos":8,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"21d224","input":"         # %load ../solutions/02_.py\ndf_4['PetalLengthCm'].max()","pos":118,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"21de0f","input":"","pos":5,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"24d155","input":"df.head()","pos":20,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"26e70d","input":"         # %load ../solutions/02_.py\ndf_4 = df_3.drop_duplicates()","pos":101,"scrolled":true,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"27af91","input":"","pos":4,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"2a22d0","input":"# Get the number of null values for PetalLengthCm\n","pos":80,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"375857","input":"df_4['Species'] = df_4['Species'].astype('category')","pos":111,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"3b3964","input":"# Get the help for the dropna method\n","pos":85,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"3d8c01","input":"# Force pandas to display 25 rows\n","pos":35,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"3eca65","input":"         # %load ../solutions/02_.py\ndf['Species'].value_counts(dropna=False)","pos":71,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"40d4cb","input":"pd.options.display.max_rows","pos":34,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"41f95a","input":"# print the number of rows of df_2 using a f_string\n","pos":92,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"42b78e","input":"         # %load ../solutions/02_.py\ndf[df['PetalLengthCm'].isnull()].index","pos":83,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"449f89","input":"df.iloc[120:125]","pos":44,"scrolled":true,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"46ba88","input":"","pos":90,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"46e30e","input":"# Use the describe method to see how the data is distributed (numerical features only!)\n","pos":104,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"4a156c","input":"         # %load ../solutions/02_.py\ndf_4.min()","pos":116,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"4ff4f6","input":"# print the number of rows of df_2 using a f_string\nprint(f'number of rows of df_3: {df_3.shape[0]}')","pos":97,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"502791","input":"         # %load ../solutions/02_.py\ndf_2 = df.dropna(how='all')","pos":88,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"55627c","input":"","pos":6,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"55bc20","input":"df.iloc[5:10]","pos":52,"scrolled":true,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"596a72","input":"         # %load ../solutions/02_.py\ndf.shape","pos":26,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"5ce026","input":"# Return the proportion for each species\n","pos":73,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"5f2dd9","input":"# Return the proportion for each species\n","pos":70,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"628a57","input":"# Calculate the maximum of the PetalLengthCm\n","pos":117,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"635fd2","input":"# Load the dataframe, read it into a Panda's DataFrame and assign it to df\n","pos":17,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"6c17cb","input":"         # %load ../solutions/02_.py\n?pd.DataFrame.dropna","pos":86,"scrolled":true,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"6ea4b5","input":"         # %load ../solutions/02_.py\nimport numpy as np","pos":12,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"6ffce3","input":"# Return the list of unique values from the Species column\n","pos":65,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"72bd2a","input":"         # %load ../solutions/02_.py\ndf['PetalLengthCm'].isnull().sum()","pos":81,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"75c97f","input":"         # %load ../solutions/02_.py\ndf['Species'].value_counts(normalize=True)","pos":74,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"82b121","input":"# Using the dtypes attribute, check the types of the columns of df_4\n","pos":112,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"8300bf","input":"df.loc[151:, 'SepalLengthCm']","pos":47,"scrolled":true,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"864c54","input":"","pos":125,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"88f6be","input":"df_4['Id'] = df_4['Id'].astype('str')","pos":108,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"8d9bde","input":"         # %load ../solutions/02_.py\ndf_3 = df_2.dropna(how='any')","pos":96,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"9858f3","input":"","pos":7,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"98f7e0","input":"         # %load ../solutions/02_.py\ndf['SepalLengthCm']","pos":39,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"99dd86","input":"# Use the dropna method to remove the rows of df_2 which only has nan values, and assign it to df_3\n","pos":95,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"9c5ce5","input":"         # %load ../solutions/02_.py\nprint(f'number of rows of df_2: {df_2.shape[0]}')","pos":93,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"acec37","input":"df_4.describe()","pos":109,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"b53be2","input":"# Have a look at the last 3 rows of df using the tail method\n","pos":21,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"bc1399","input":"# Display the rows of df where PetalWidthCm is greater than 2 and PetalLengthCm is less than 5.5.\n","pos":59,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"beb0f1","input":"df.loc[11]   # .loc uses indexes and labels","pos":43,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"ca6f1e","input":"df.loc[5:10]","pos":53,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"ccdf19","input":"# Remove the duplicates rows from df_3, and assign the new dataframe to df_4\n","pos":100,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"d06729","input":"","pos":3,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"d0c37c","input":"# Get the minimum for each numerical column of df_4\n","pos":115,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"d38eb4","input":"print(f'shape of df: {df.shape}')","pos":91,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"d46974","input":"         # %load ../solutions/02_.py\ndf_4.describe()","pos":105,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"d6964a","input":"#  Display the 'SepalLengthCm' column\n","pos":38,"scrolled":true,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"d99710","input":"df.loc[[145, 7, 0], ['PetalLengthCm', 'PetalWidthCm']]","pos":50,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"dc989e","input":"         # %load ../solutions/02_.py\nmask__PW_PL = (df['PetalWidthCm'] >2) & (df['PetalLengthCm'] < 5.5)\ndf[mask__PW_PL]","pos":60,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"e276d5","input":"df.iloc[11]  # .iloc uses positions (\"i\" stands for integer)","pos":42,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"e2d024","input":"df.columns","pos":30,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"e4889a","input":"df_4.groupby('Species').median()","pos":120,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"e4f619","input":"df['Species'].value_counts()","pos":68,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"e84fcd","input":"df.columns.tolist()","pos":32,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"f007b8","input":"df.iloc[[145, 7, 0], [3, -2]]","pos":49,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"f33bf6","input":"df['PetalLengthCm'].isnull()","pos":76,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"f88cdf","input":"df['PetalLengthCm'].isnull()","pos":78,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":0,"id":"fdd94d","input":"         # %load ../solutions/02_.py\ndf['Species'].unique()","pos":66,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":1,"id":"421180","input":"import pandas as pd","pos":10,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":3,"id":"e8d8f6","input":"         # %load ../solutions/02_.py\ndf = pd.read_csv('../data/Iris/Iris_data.csv')","pos":18,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":4,"id":"d679d0","input":"?pd.read_csv","output":{"0":{"name":"stderr","output_type":"stream","text":"WARNING: Some output was deleted.\n"}},"pos":15,"scrolled":true,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":6,"id":"56d433","input":"mask_PW = df['PetalWidthCm'] > 2\nmask_PW","output":{"0":{"data":{"text/plain":"0      False\n1      False\n2      False\n3      False\n4      False\n       ...  \n149     True\n150    False\n151    False\n152     True\n153    False\nName: PetalWidthCm, Length: 154, dtype: bool"},"exec_count":6,"output_type":"execute_result"}},"pos":56,"scrolled":true,"state":"done","type":"cell"}
-{"cell_type":"code","exec_count":7,"id":"d6a749","input":"df[mask]","output":{"0":{"data":{"text/html":"<div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n</style>\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th></th>\n      <th>Id</th>\n      <th>SepalLengthCm</th>\n      <th>SepalWidthCm</th>\n      <th>PetalLengthCm</th>\n      <th>PetalWidthCm</th>\n      <th>Species</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>102</th>\n      <td>102.0</td>\n      <td>6.3</td>\n      <td>3.3</td>\n      <td>6.0</td>\n      <td>2.5</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>104</th>\n      <td>104.0</td>\n      <td>7.1</td>\n      <td>3.0</td>\n      <td>5.9</td>\n      <td>2.1</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>106</th>\n      <td>106.0</td>\n      <td>6.5</td>\n      <td>3.0</td>\n      <td>5.8</td>\n      <td>2.2</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>107</th>\n      <td>107.0</td>\n      <td>7.6</td>\n      <td>3.0</td>\n      <td>6.6</td>\n      <td>2.1</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>111</th>\n      <td>111.0</td>\n      <td>7.2</td>\n      <td>3.6</td>\n      <td>6.1</td>\n      <td>2.5</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>115</th>\n      <td>115.0</td>\n      <td>6.8</td>\n      <td>3.0</td>\n      <td>5.5</td>\n      <td>2.1</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>117</th>\n      <td>117.0</td>\n      <td>5.8</td>\n      <td>2.8</td>\n      <td>5.1</td>\n      <td>2.4</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>118</th>\n      <td>118.0</td>\n      <td>6.4</td>\n      <td>3.2</td>\n      <td>5.3</td>\n      <td>2.3</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>120</th>\n      <td>120.0</td>\n      <td>7.7</td>\n      <td>3.8</td>\n      <td>6.7</td>\n      <td>2.2</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>121</th>\n      <td>121.0</td>\n      <td>7.7</td>\n      <td>2.6</td>\n      <td>6.9</td>\n      <td>2.3</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>123</th>\n      <td>123.0</td>\n      <td>6.9</td>\n      <td>3.2</td>\n      <td>5.7</td>\n      <td>2.3</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>127</th>\n      <td>127.0</td>\n      <td>6.7</td>\n      <td>3.3</td>\n      <td>5.7</td>\n      <td>2.1</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>131</th>\n      <td>131.0</td>\n      <td>6.4</td>\n      <td>2.8</td>\n      <td>5.6</td>\n      <td>2.1</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>135</th>\n      <td>135.0</td>\n      <td>6.4</td>\n      <td>2.8</td>\n      <td>5.6</td>\n      <td>2.2</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>139</th>\n      <td>139.0</td>\n      <td>7.7</td>\n      <td>3.0</td>\n      <td>6.1</td>\n      <td>2.3</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>140</th>\n      <td>140.0</td>\n      <td>6.3</td>\n      <td>3.4</td>\n      <td>5.6</td>\n      <td>2.4</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>143</th>\n      <td>143.0</td>\n      <td>6.9</td>\n      <td>3.1</td>\n      <td>5.4</td>\n      <td>2.1</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>144</th>\n      <td>144.0</td>\n      <td>6.7</td>\n      <td>3.1</td>\n      <td>5.6</td>\n      <td>2.4</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>145</th>\n      <td>145.0</td>\n      <td>6.9</td>\n      <td>3.1</td>\n      <td>5.1</td>\n      <td>2.3</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>147</th>\n      <td>147.0</td>\n      <td>6.8</td>\n      <td>3.2</td>\n      <td>5.9</td>\n      <td>2.3</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>148</th>\n      <td>148.0</td>\n      <td>6.7</td>\n      <td>3.3</td>\n      <td>5.7</td>\n      <td>2.5</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>149</th>\n      <td>149.0</td>\n      <td>6.7</td>\n      <td>3.0</td>\n      <td>5.2</td>\n      <td>2.3</td>\n      <td>Iris-virginica</td>\n    </tr>\n    <tr>\n      <th>152</th>\n      <td>152.0</td>\n      <td>6.2</td>\n      <td>3.4</td>\n      <td>5.4</td>\n      <td>2.3</td>\n      <td>Iris-virginica</td>\n    </tr>\n  </tbody>\n</table>\n</div>","text/plain":"        Id  SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm  \\\n102  102.0            6.3           3.3            6.0           2.5   \n104  104.0            7.1           3.0            5.9           2.1   \n106  106.0            6.5           3.0            5.8           2.2   \n107  107.0            7.6           3.0            6.6           2.1   \n111  111.0            7.2           3.6            6.1           2.5   \n115  115.0            6.8           3.0            5.5           2.1   \n117  117.0            5.8           2.8            5.1           2.4   \n118  118.0            6.4           3.2            5.3           2.3   \n120  120.0            7.7           3.8            6.7           2.2   \n121  121.0            7.7           2.6            6.9           2.3   \n123  123.0            6.9           3.2            5.7           2.3   \n127  127.0            6.7           3.3            5.7           2.1   \n131  131.0            6.4           2.8            5.6           2.1   \n135  135.0            6.4           2.8            5.6           2.2   \n139  139.0            7.7           3.0            6.1           2.3   \n140  140.0            6.3           3.4            5.6           2.4   \n143  143.0            6.9           3.1            5.4           2.1   \n144  144.0            6.7           3.1            5.6           2.4   \n145  145.0            6.9           3.1            5.1           2.3   \n147  147.0            6.8           3.2            5.9           2.3   \n148  148.0            6.7           3.3            5.7           2.5   \n149  149.0            6.7           3.0            5.2           2.3   \n152  152.0            6.2           3.4            5.4           2.3   \n\n            Species  \n102  Iris-virginica  \n104  Iris-virginica  \n106  Iris-virginica  \n107  Iris-virginica  \n111  Iris-virginica  \n115  Iris-virginica  \n117  Iris-virginica  \n118  Iris-virginica  \n120  Iris-virginica  \n121  Iris-virginica  \n123  Iris-virginica  \n127  Iris-virginica  \n131  Iris-virginica  \n135  Iris-virginica  \n139  Iris-virginica  \n140  Iris-virginica  \n143  Iris-virginica  \n144  Iris-virginica  \n145  Iris-virginica  \n147  Iris-virginica  \n148  Iris-virginica  \n149  Iris-virginica  \n152  Iris-virginica  "},"exec_count":7,"output_type":"execute_result"}},"pos":58,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"04ddf7","input":"**Use the dropna method to remove the row which only has nan values.**","pos":84,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"074e43","input":"Note that this return boleans. If we pass this mask to our dataframe, it will display only the rows where the mask is True.","pos":57,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"0b9b41","input":"**To get the proportion instead of the count of these values, we have to pass the value *True* to the parameter *normalize*.**","pos":72,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"1dcd1f","input":"**Get the names of the columns and info about them (number of non null and type)**","pos":27,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"21df42","input":"## Data Ananlysis Packages  \nData Scientists use a wide variety of libraries in Python that make working with data significantly easier. Those libraries primarily consist of:\n\n| Package | Description |\n| -- | -- |\n| `NumPy` | Numerical calculations - does all the heavy lifting by passing out to C subroutines. This means you get _both_ the productivity of Python, _and_ the computational power of C. Best of both worlds! |\n| `SciPy` | Scientific computing, statistic tests, and much more! |\n| `pandas` | Your data manipulation swiss army knife. You'll likely see pandas used in any PyData demo! pandas is built on top of NumPy, so it's **fast**. |\n| `matplotlib` | An old but powerful data visualisation package, inspired by Matlab. |\n| `Seaborn` | A newer and easy-to-use but limited data visualisation package, built on top of matplotlib. |\n| `scikit-learn` | Your one-stop machine learning shop! Classification, regression, clustering, dimensional reduction and more. |\n| `nltk` and `spacy` | nltk = natural language processing toolkit; spacy is a newer package for natural language processing but very easy to use. |\n| `statsmodels` | Statistical tests, time series forecasting and more. The \"model formula\" interface will be familiar to R users. |\n| `requests` and `Beautiful Soup` | `requests` + `Beautiful Soup` = great combination for building web scrapers. |\n| `Jupyter` | Jupyter itself is a package too. See the latest version at https://pypi.org/project/jupyter/, and upgrade with e.g. `conda install jupyter==1.0.0` |\n\nThough there are countless others available.\n\nFor today, we'll primarily focus ourselves around the library that is 99% of our work: `pandas`. But first, pandas is built on top of the speed and power of NumPy, so let's dig into that briefly.","pos":2,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"2fbc5a","input":"**To get the size of the datasets, we can use the *shape* attribute.**  \nThe first number is the number of row, the second one the number of columns","pos":24,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"31fffd","input":"**The *drop_duplicates* method **","pos":99,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"359ede","input":"**We can also get information for each type of flower using the groupby methode.**  \n\nWe'll get the median for each species.","pos":119,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"38d5be","input":"**We can also get the list of unique values from a certain column by using the *unique* method.**","pos":64,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"3adcef","input":"   ***explain different ways to get HELP***","pos":14,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"43d230","input":"**We can also get the columns of the dataframe:**","pos":29,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"47b45a","input":"To load the dataframe we are using in this notebook, we will provide the path to the file: ../data/Iris/Iris_data.csv","pos":16,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"4c31a2","input":"**We can also use the functions count(), mean(), sum(), median(), std(), min() and max() separately if we are only interested in one of those.**","pos":114,"state":"done","type":"cell"}
+{"backend_state":"running","kernel":"python3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":84279296},"metadata":{"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.6.9"}},"trust":true,"type":"settings"}
+{"cell_type":"code","exec_count":0,"id":"011d74","input":"# %load ../solutions/02_32.py","pos":140,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"0aef87","input":"# checking the shape of df_4\ndf_4.shape","pos":115,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"0c2a23","input":"# %load ../solutions/02_11.py","pos":52,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"13bf90","input":"df['Species'].nunique()","pos":69,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"15e019","input":"# %load ../solutions/02_05.py","pos":32,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"1942b6","input":"# %load ../solutions/02_07.py","pos":41,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"1a9bcb","input":"# %load ../solutions/02_03.py","pos":25,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"1c8d7a","input":"# %load ../solutions/02_28.py","pos":127,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"21d224","input":"# %load ../solutions/02_30.py","pos":134,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"24d155","input":"df.head()","pos":22,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"26e70d","input":"# %load ../solutions/02_26.py","pos":114,"scrolled":true,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"375857","input":"df_4['Species'] = df_4['Species'].astype('category')","pos":124,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"3eca65","input":"# %load ../solutions/02_17.py","pos":77,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"40d4cb","input":"pd.options.display.max_rows","pos":38,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"42b78e","input":"# %load ../solutions/02_20.py","pos":90,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"4a156c","input":"# %load ../solutions/02_29.py","pos":131,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"4ff4f6","input":"# %load ../solutions/02_25.py","pos":109,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"502791","input":"# %load ../solutions/02_22.py","pos":97,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"55bc20","input":"df.iloc[5:10]","pos":58,"scrolled":true,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"596a72","input":"# %load ../solutions/02_04.py","pos":30,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"6c17cb","input":"# %load ../solutions/02_21.py","pos":94,"scrolled":true,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"6ea4b5","input":"# %load ../solutions/02_01.py","pos":13,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"72bd2a","input":"# %load ../solutions/02_19.py","pos":88,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"75c97f","input":"# %load ../solutions/02_18.py","pos":80,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"8300bf","input":"# %load ../solutions/02_12.py","pos":53,"scrolled":true,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"864c54","input":"","pos":143,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"88f6be","input":"df_4['Id'] = df_4['Id'].astype('str')","pos":121,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"8d9bde","input":"# %load ../solutions/02_24.py","pos":106,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"98f7e0","input":"# %load ../solutions/02_08.py","pos":45,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"9c5ce5","input":"# %load ../solutions/02_23.py","pos":103,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"acec37","input":"df_4.describe()","pos":122,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"beb0f1","input":"# %load ../solutions/02_10.py","pos":49,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"ca6f1e","input":"df.loc[5:10]","pos":59,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"d38eb4","input":"print(f'shape of df: {df.shape}')","pos":100,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"d46974","input":"# %load ../solutions/02_27.py","pos":119,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"d99710","input":"# %load ../solutions/02_14.py","pos":56,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"dc989e","input":"# %load ../solutions/02_15.py","pos":66,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"e276d5","input":"# %load ../solutions/02_09.py","pos":48,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"e2d024","input":"# %load ../solutions/02_06.py","pos":34,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"e4889a","input":"# %load ../solutions/02_31.py","pos":136,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"e4f619","input":"df['Species'].value_counts()","pos":74,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"f007b8","input":"# %load ../solutions/02_13.py","pos":55,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"f88cdf","input":"df['PetalLengthCm'].isnull()","pos":84,"state":"done","type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"fdd94d","input":"# %load ../solutions/02_16.py","pos":72,"state":"done","type":"cell"}
+{"cell_type":"code","id":"421180","input":"import pandas as pd","pos":10,"state":"done","type":"cell"}
+{"cell_type":"code","id":"56d433","input":"mask_PW = df['PetalWidthCm'] > 2\nmask_PW","pos":62,"scrolled":true,"state":"done","type":"cell"}
+{"cell_type":"code","id":"d679d0","input":"?pd.read_csv","pos":16,"scrolled":true,"state":"done","type":"cell"}
+{"cell_type":"code","id":"d6a749","input":"df[mask]","pos":64,"state":"done","type":"cell"}
+{"cell_type":"code","id":"e8d8f6","input":"# %load ../solutions/02_02.py","pos":20,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"0a0ede","input":">Import numpy using the convention seen at the end of the first notebook.","pos":11,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"0c0cf5","input":">Use the dropna method to remove the row of df which only has nan values, and assign it to df_2.","pos":95,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"0e6214","input":">Using the index attribute, get the indexes of the observation without PetalLengthCm","pos":89,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"192912","input":">Show the shape of df (do not put brackets at the end)","pos":28,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"2a22d0","input":">Get the number of null values for ***PetalLengthCm***.","pos":86,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"3b3964","input":">Get the help for the dropna method.","pos":92,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"3d8c01","input":">Force pandas to display 25 rows by changing the value of the above.","pos":39,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"41f95a","input":">print the number of rows of df_2 using a f_string","pos":101,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"46e30e","input":">Use the describe method to see how the data is distributed (numerical features only!)","pos":117,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"5ce026","input":">Return the proportion for each species","pos":79,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"5f2dd9","input":">Return the proportion for each species","pos":76,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"628a57","input":">Calculate the maximum of the ***PetalLengthCm***","pos":132,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"635fd2","input":">Load the dataframe, read it into a Panda's DataFrame and assign it to df","pos":18,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"6ffce3","input":">Return the list of unique values from the Species column","pos":71,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"82b121","input":">Using the dtypes attribute, check the types of the columns of df_4","pos":125,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"99dd86","input":">Use the dropna method to remove the rows of df_2 which only has nan values, and assign it to df_3","pos":105,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"b53be2","input":">Have a look at the last 3 rows of df using the tail method","pos":23,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"bc1399","input":">Display the rows of df where ***PetalWidthCm*** is greater than 2 and ***PetalLengthCm*** is less than 5.5.","pos":65,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"ccdf19","input":">Remove the duplicates rows from df_3, and assign the new dataframe to df_4","pos":112,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"d0c37c","input":">Get the minimum for each numerical column of df_4","pos":129,"state":"done","type":"cell"}
+{"cell_type":"markdown","exec_count":0,"id":"d6964a","input":">Display the 'SepalLengthCm' column","pos":43,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"04ddf7","input":"**Use the dropna method to remove the row which only has nan values.**","pos":91,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"074e43","input":"Note that this return boleans. If we pass this mask to our dataframe, it will display only the rows where the mask is True.","pos":63,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"0b9b41","input":"**To get the proportion instead of the count of these values, we have to pass the value *True* to the parameter *normalize*.**","pos":78,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"1dcd1f","input":">Get the names of the columns and info about them (number of non null and type) using the info method.","pos":31,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"21df42","input":"## Data Ananlysis Packages  \nData Scientists use a wide variety of libraries in Python that make working with data significantly easier. Those libraries primarily consist of:\n\n| Package | Description |\n| -- | -- |\n| `NumPy` | Numerical calculations - does all the heavy lifting by passing out to C subroutines. This means you get _both_ the productivity of Python, _and_ the computational power of C. Best of both worlds! |\n| `SciPy` | Scientific computing, statistic tests, and much more! |\n| `pandas` | Your data manipulation swiss army knife. You'll likely see pandas used in any PyData demo! pandas is built on top of NumPy, so it's **fast**. |\n| `matplotlib` | An old but powerful data visualisation package, inspired by Matlab. |\n| `Seaborn` | A newer and easy-to-use but limited data visualisation package, built on top of matplotlib. |\n| `scikit-learn` | Your one-stop machine learning shop! Classification, regression, clustering, dimensional reduction and more. |\n| `nltk` and `spacy` | nltk = natural language processing toolkit; spacy is a newer package for natural language processing but very easy to use. |\n| `statsmodels` | Statistical tests, time series forecasting and more. The \"model formula\" interface will be familiar to R users. |\n| `requests` and `Beautiful Soup` | `requests` + `Beautiful Soup` = great combination for building web scrapers. |\n| `Jupyter` | Jupyter itself is a package too. See the latest version at https://pypi.org/project/jupyter/, and upgrade with e.g. `conda install jupyter==1.0.0` |\n\nThough there are countless others available.\n\nFor today, we'll primarily focus ourselves around the library that is 99% of our work: `pandas`. Pandas is built on top of the speed and power of NumPy.","pos":2,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"2fbc5a","input":"**To get the size of the datasets, we can use the *shape* attribute.**  \nThe first number is the number of row, the second one the number of columns","pos":27,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"31fffd","input":"**!!! The *drop_duplicates* method**","pos":111,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"359ede","input":"**We can also get information for each type of flower using the groupby methode.**  \n\n>Get the median for each ***Species***.","pos":135,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"38d5be","input":"**We can also get the list of unique values from a certain column by using the *unique* method.**","pos":70,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"3adcef","input":"   ***explain different ways to get HELP***","pos":15,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"43d230","input":">get the columns of the dataframe using the comulns attribute.","pos":33,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"47b45a","input":"To load the dataframe we are using in this notebook, we will provide the path to the file: ../data/Iris/Iris_data.csv","pos":17,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"4c31a2","input":"**We can also use the functions count(), mean(), sum(), median(), std(), min() and max() separately if we are only interested in one of those.**","pos":128,"state":"done","type":"cell"}
 {"cell_type":"markdown","id":"4fca0b","input":"# Data Analysis with Pandas","pos":0,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"527003","input":"**Then at the 12th observation:**","pos":41,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"548de6","input":"**!!WARNING!!**  Unlike Python and ``.iloc``, the end value in a range specified by ``.loc`` **includes** the last index specified. ","pos":51,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"5e81f9","input":"**We can get the number of unique values from a certain column by using the *nunique* method.**  \nFor example, we can get the number of unique values from the Species column:","pos":62,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"5e95c7","input":"### Saving the dataframe as a csv file","pos":123,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"527003","input":">Have a look at the 12th observation:**","pos":47,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"548de6","input":"**!!WARNING!!**  Unlike Python and ``.iloc``, the end value in a range specified by ``.loc`` **includes** the last index specified. ","pos":57,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"5e81f9","input":"**We can get the number of unique values from a certain column by using the *nunique* method.**  \nFor example, we can get the number of unique values from the Species column:","pos":68,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"5e95c7","input":"### Saving the dataframe as a csv file","pos":137,"state":"done","type":"cell"}
 {"cell_type":"markdown","id":"5fbbd6","input":"___\n## Imports","pos":9,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"6b82df","input":"**To have a look at the first 5 rows of df, we can use the *head* method.**","pos":19,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"6bda69","input":"**dropna method -> link to **","pos":94,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"74b26b","input":"___\n## _Some stats_","pos":103,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"6b82df","input":"**To have a look at the first 5 rows of df, we can use the *head* method.**","pos":21,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"6bda69","input":"**!!! dropna method -> link to documentation?**","pos":104,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"74b26b","input":"___\n## _Some stats_","pos":116,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"7d84af","input":">Print the number of rows of df_3 using a f_string.","pos":107,"type":"cell"}
 {"cell_type":"markdown","id":"82afe8","input":"***Note***: this notebook contains cell with ***a*** solution. Remember ther is not only one soltuion to a problem!  \nYou will recognise these cells as they start with **# %**.  \nIf you would like to see the soltion, you will have to remove the **#** (which can be done by using **Ctrl** and **?**) and run the cell. If you want to run the solution code, you will have to run the cell again.","pos":1,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"87ccd0","input":"### Duplicates","pos":98,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"893989","input":"**At the 'SepalLengthCm' of the last three observations:**","pos":45,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"90787f","input":"### Correlation between the numerical features","pos":121,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"94b0a1","input":"**If we want to know the count of NaN values, we have to pass the value *Flase* to the parameter *dropna* (set to *True* by default).**","pos":69,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"966ecb","input":"___\n## Filtering","pos":54,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"a5d96a","input":"We can also change the **Species** column to save memory space.","pos":110,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"a726dc","input":"### Display settings","pos":33,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"ad8e16","input":"___\n## _Subsetting_\nWe can subset a dataframe by label, by index or a combination of both.  \nThere are different ways to do it, using .loc, .iloc and also []. See documentation:  \nhttps://pandas.pydata.org/pandas-docs/stable/indexing.html","pos":37,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"ad93b9","input":"**To get a list of the columns names:**","pos":31,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"b16703","input":"___\n## Values","pos":61,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"b288ba","input":"**We can also use condition(s) to filter.**  \nWe want to display the rows of df where **PetalWidthCm** is greater than 2. We will start by creating a mask with this condition.","pos":55,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"b48694","input":"___\n## General information about the dataset","pos":23,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"c54432","input":"___\n## Loading the data","pos":13,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"ced129","input":"We can convert the **Id** column to string:","pos":107,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"d81359","input":"*Note:* We could also use df.SepalLengthCm   ->   not a great idea because og methods","pos":40,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"dc4d3a","input":"**We can apply different methods one after the other.**.  \nFor example, we could apply to method *sum* after the method *isnull* to know the number of null observations in the PetalLengthCm column.","pos":79,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"e079a9","input":"**We can use the *isnull* method to know if a value is null or not. It returns booleans.**","pos":77,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"e4062c","input":"**f-string**  \nblabla","pos":89,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"e98436","input":"**To get the count of the different values of a column, we can use the *value_counts* method.**  \nFor example, for the Species column:","pos":67,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"f46997","input":"### NaN","pos":75,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"fb831f","input":"**And finally look at the PetalLengthCm and PetalWidthCm of the 146th, the 8th and the 1rst observations:**","pos":48,"state":"done","type":"cell"}
-{"id":0,"time":1588799568146,"type":"user"}
-{"last_load":1588931100852,"type":"file"}
+{"cell_type":"markdown","id":"87ccd0","input":"### Duplicates","pos":110,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"893989","input":">Display the ***SepalLengthCm*** of the last three observations.","pos":51,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"94b0a1","input":"**If we want to know the count of NaN values, we have to pass the value *Flase* to the parameter *dropna* (set to *True* by default).**","pos":75,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"966ecb","input":"___\n## Filtering","pos":60,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"a5d96a","input":"We can also change the **Species** column to save memory space.","pos":123,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"a726dc","input":"### Display settings","pos":37,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"ad8e16","input":"___\n## _Subsetting_\nWe can subset a dataframe by label, by index or a combination of both.  \nThere are different ways to do it, using .loc, .iloc and also []. See documentation:  \nhttps://pandas.pydata.org/pandas-docs/stable/indexing.html","pos":42,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"b16703","input":"___\n## Values","pos":67,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"b288ba","input":"**We can also use condition(s) to filter.**  \nWe want to display the rows of df where **PetalWidthCm** is greater than 2. We will start by creating a mask with this condition.","pos":61,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"b48694","input":"___\n## General information about the dataset","pos":26,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"b61f43","input":">Save df_4 using this path: '../data/my_data/my_iris.csv'","pos":138,"type":"cell"}
+{"cell_type":"markdown","id":"c54432","input":"___\n## Loading the data","pos":14,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"ced129","input":"We can convert the **Id** column to string:","pos":120,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"d81359","input":"*Note:* We could also use df.SepalLengthCm   ->   not a great idea because it could be mixed with methods.","pos":46,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"dc4d3a","input":"**We can apply different methods one after the other.**.  \nFor example, we could apply to method *sum* after the method *isnull* to know the number of null observations in the PetalLengthCm column.","pos":85,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"e079a9","input":"**We can use the *isnull* method to know if a value is null or not. It returns booleans.**","pos":82,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"e4062c","input":"**!!!!! f-string**  \nblabla","pos":98,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"e98436","input":"**To get the count of the different values of a column, we can use the *value_counts* method.**  \nFor example, for the Species column:","pos":73,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"f46997","input":"### NaN","pos":81,"state":"done","type":"cell"}
+{"cell_type":"markdown","id":"fb831f","input":"**And finally look at the PetalLengthCm and PetalWidthCm of the 146th, the 8th and the 1rst observations:**","pos":54,"state":"done","type":"cell"}
+{"id":"0b11e9","input":"","pos":118,"type":"cell"}
+{"id":"0cb23e","input":"","pos":89.5,"type":"cell"}
+{"id":"0d25bd","input":"","pos":71.5,"type":"cell"}
+{"id":"11176a","input":"","pos":87,"type":"cell"}
+{"id":"19e467","input":"","pos":126,"type":"cell"}
+{"id":"29bb9f","input":"","pos":12,"state":"done","type":"cell"}
+{"id":"2f9b06","input":"","pos":31.5,"type":"cell"}
+{"id":"4174fc","input":"# using .iloc (uses positions, \"i\" stands for integer)\n","pos":47.5,"type":"cell"}
+{"id":"43f8da","input":"","pos":142,"type":"cell"}
+{"id":"54a7ea","input":"","pos":76.5,"type":"cell"}
+{"id":"5bf5e2","input":"","pos":24,"state":"done","type":"cell"}
+{"id":"60ab0b","input":"","pos":141,"type":"cell"}
+{"id":"6e3a10","input":"","pos":19,"state":"done","type":"cell"}
+{"id":"8092ab","input":"","pos":65.5,"type":"cell"}
+{"id":"825172","input":"# using .loc\n","pos":52.5,"type":"cell"}
+{"id":"88806f","input":"","pos":130,"type":"cell"}
+{"id":"8af4a2","input":"","pos":96,"type":"cell"}
+{"id":"8ba12d","input":"","pos":108,"type":"cell"}
+{"id":"95338d","input":"# using .loc (uses indexes and labels)\n","pos":48.5,"type":"cell"}
+{"id":"9824f8","input":"","pos":79.5,"type":"cell"}
+{"id":"983938","input":"","pos":29,"state":"done","type":"cell"}
+{"id":"9fcfbc","input":"","pos":40,"state":"done","type":"cell"}
+{"id":"a11597","input":"# using .iloc\n","pos":51.5,"type":"cell"}
+{"id":"a90812","input":"# using .loc\n","pos":55.5,"type":"cell"}
+{"id":"b8915b","input":"","pos":133,"type":"cell"}
+{"id":"de5f7a","input":"# using .iloc\n","pos":54.5,"type":"cell"}
+{"id":"e735f2","input":"","pos":93,"type":"cell"}
+{"id":"ef411e","input":"","pos":102,"type":"cell"}
+{"id":"f6c1b3","input":"","pos":44,"state":"done","type":"cell"}
+{"id":"f7abed","input":"","pos":33.5,"type":"cell"}
+{"id":"fba9ec","input":"","pos":139,"type":"cell"}
+{"id":"fffd6f","input":"","pos":113,"type":"cell"}
+{"id":0,"time":1588979632015,"type":"user"}
+{"last_load":1588979631589,"type":"file"}

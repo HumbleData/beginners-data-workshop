@@ -1,0 +1,1 @@
+df['country'].nunique()

@@ -1,0 +1,1 @@
+df['Attendees'].apply(f)
