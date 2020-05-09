@@ -1,1 +1,1 @@
-(len('Sandrine') > 5) & (len('Cheuk') <7)
+(len("Sandrine") > 5) and (len("Cheuk") < 7)
