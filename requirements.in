@@ -3,6 +3,7 @@
 jupyterlab==2.0.1
 # loguru==0.4.1
 # nb-black==1.0.7
+nbdime==2.0.0
 pandas==1.0.3
 pip-tools==5.1.2
 seaborn==0.10.1

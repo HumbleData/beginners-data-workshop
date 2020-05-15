@@ -8,19 +8,25 @@ appnope==0.1.0            # via ipykernel, ipython
 attrs==19.3.0             # via jsonschema
 backcall==0.1.0           # via ipython
 bleach==3.1.5             # via nbconvert
+certifi==2020.4.5.1       # via requests
+chardet==3.0.4            # via requests
 click==7.1.2              # via pip-tools
+colorama==0.4.3           # via nbdime
 cycler==0.10.0            # via matplotlib
 decorator==4.4.2          # via ipython, traitlets
 defusedxml==0.6.0         # via nbconvert
 docopt==0.6.2             # via treon
 entrypoints==0.3          # via nbconvert
+gitdb==4.0.5              # via gitpython
+gitpython==3.1.2          # via nbdime
+idna==2.9                 # via requests
 importlib-metadata==1.6.0  # via jsonschema
 ipykernel==5.2.1          # via ipywidgets, jupyter, jupyter-console, notebook, qtconsole
 ipython-genutils==0.2.0   # via nbformat, notebook, qtconsole, traitlets
 ipython==7.14.0           # via ipykernel, ipywidgets, jupyter-console
 ipywidgets==7.5.1         # via jupyter
 jedi==0.17.0              # via ipython
-jinja2==2.11.2            # via jupyterlab, jupyterlab-server, nbconvert, notebook
+jinja2==2.11.2            # via jupyterlab, jupyterlab-server, nbconvert, nbdime, notebook
 json5==0.9.4              # via jupyterlab-server
 jsonschema==3.2.0         # via jupyterlab-server, nbformat
 jupyter-client==6.1.3     # via ipykernel, jupyter-console, notebook, qtconsole, treon
@@ -34,8 +40,9 @@ markupsafe==1.1.1         # via jinja2
 matplotlib==3.2.1         # via seaborn
 mistune==0.8.4            # via nbconvert
 nbconvert==5.6.1          # via jupyter, notebook, treon
-nbformat==5.0.6           # via ipywidgets, nbconvert, notebook
-notebook==6.0.3           # via jupyter, jupyterlab, jupyterlab-server, widgetsnbextension
+nbdime==2.0.0             # via -r requirements.in
+nbformat==5.0.6           # via ipywidgets, nbconvert, nbdime, notebook
+notebook==6.0.3           # via jupyter, jupyterlab, jupyterlab-server, nbdime, widgetsnbextension
 numpy==1.18.4             # via matplotlib, pandas, scipy, seaborn
 packaging==20.3           # via bleach
 pandas==1.0.3             # via -r requirements.in, seaborn
@@ -47,7 +54,7 @@ pip-tools==5.1.2          # via -r requirements.in
 prometheus-client==0.7.1  # via notebook
 prompt-toolkit==3.0.5     # via ipython, jupyter-console
 ptyprocess==0.6.0         # via pexpect, terminado
-pygments==2.6.1           # via ipython, jupyter-console, nbconvert, qtconsole
+pygments==2.6.1           # via ipython, jupyter-console, nbconvert, nbdime, qtconsole
 pyparsing==2.4.7          # via matplotlib, packaging
 pyrsistent==0.16.0        # via jsonschema
 python-dateutil==2.8.1    # via jupyter-client, matplotlib, pandas
@@ -55,15 +62,18 @@ pytz==2020.1              # via pandas
 pyzmq==19.0.1             # via jupyter-client, notebook, qtconsole
 qtconsole==4.7.3          # via jupyter
 qtpy==1.9.0               # via qtconsole
+requests==2.23.0          # via nbdime
 scipy==1.4.1              # via seaborn
 seaborn==0.10.1           # via -r requirements.in
 send2trash==1.5.0         # via notebook
-six==1.14.0               # via bleach, cycler, jsonschema, packaging, pip-tools, pyrsistent, python-dateutil, traitlets
+six==1.14.0               # via bleach, cycler, jsonschema, nbdime, packaging, pip-tools, pyrsistent, python-dateutil, traitlets
+smmap==3.0.4              # via gitdb
 terminado==0.8.3          # via notebook
 testpath==0.4.4           # via nbconvert
-tornado==6.0.4            # via ipykernel, jupyter-client, jupyterlab, notebook, terminado
+tornado==6.0.4            # via ipykernel, jupyter-client, jupyterlab, nbdime, notebook, terminado
 traitlets==4.3.3          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbconvert, nbformat, notebook, qtconsole
 treon==0.1.3              # via -r requirements.in
+urllib3==1.25.9           # via requests
 wcwidth==0.1.9            # via prompt-toolkit
 webencodings==0.5.1       # via bleach
 widgetsnbextension==3.5.1  # via ipywidgets
