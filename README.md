@@ -79,6 +79,10 @@ mkvirtualenv beginners-data-workshop
 pip install pip-tools
 pip-sync
 python -m ipykernel install --user --name beginners-data-workshop --display-name "Python (beginners-data-workshop)"
+
+# Install Jupyter Extensions static files
+jupyter contrib nbextension install --user
+# More info: https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html
 ```
 
 ---

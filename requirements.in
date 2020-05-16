@@ -1,5 +1,5 @@
 # joblib==0.14.1
-# jupyter-contrib-nbextensions==0.5.1
+jupyter-contrib-nbextensions==0.5.1
 jupyterlab==2.0.1
 # loguru==0.4.1
 # nb-black==1.0.7
