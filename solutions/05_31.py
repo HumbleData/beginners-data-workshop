@@ -1,1 +1,1 @@
-df[df['DateFrom']>'2017-02-01']
+dict_cities.update({'bristol':'United Kingdom', 'gothenburg':'Sweden', 'graz':'Austria', 'lyon':'France', 'murcia':'Spain', 'parma':'Italy'})

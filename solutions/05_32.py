@@ -1,1 +1,1 @@
-df['duration'] = df['DateTo'] - df['DateFrom'] + datetime.timedelta(days=1)
+df.loc[df['country'].isnull(), 'country'] = df.loc[df['country'].isnull(), 'city'].map(dict_cities)

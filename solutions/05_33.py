@@ -1,2 +1,1 @@
-df['month'] = df['DateFrom'].dt.month
-df['month'].hist()
+df['country'].value_counts(dropna=False)

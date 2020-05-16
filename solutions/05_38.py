@@ -1,0 +1,1 @@
+df = df.drop('Country', axis=1)

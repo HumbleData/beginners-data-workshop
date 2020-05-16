@@ -1,0 +1,1 @@
+df['duration'] = df['DateTo'] - df['DateFrom'] + datetime.timedelta(days=1)

@@ -1,2 +1,1 @@
-dict_countries = {'BG':'Bulgaria', 'CZ':'Czech Republic', 'IT':'Italy', 'GR':'Greece', 'SI':'Slovenia', 'UK':'United Kingdom'}
-df.loc[df['country'].isin(dict_countries.keys()), 'country'] = df.loc[df['country'].isin(dict_countries.keys()), 'country'].map(dict_countries)
+df['city'] = df['city'].str.replace('/\w*','')

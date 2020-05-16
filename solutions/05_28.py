@@ -1,1 +1,1 @@
-df['Attendees'].apply(f)
+df.loc[df['city']=='unknown', 'country']
