@@ -1,0 +1,1 @@
+df.sort_values('city')

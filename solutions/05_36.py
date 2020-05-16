@@ -1,1 +1,1 @@
-df_gr = df.groupby('city')
+languages = pd.read_csv('../data/food_training/languages.csv')

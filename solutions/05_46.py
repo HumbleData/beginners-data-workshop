@@ -1,0 +1,1 @@
+df_gr = df.groupby('city')
