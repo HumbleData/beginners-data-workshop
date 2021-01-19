@@ -1,6 +1,6 @@
 # Beginner's Data Workshop
 
-### If you would like to aknow more about this workshop, please [apply here](https://forms.gle/t5F6iXLsqeNszt3aA) .
+### If you would like to know more about this workshop, please [apply here](https://forms.gle/t5F6iXLsqeNszt3aA) .
 
 ---
 
