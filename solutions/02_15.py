@@ -1,2 +1,2 @@
-mask_PW_PL = (df['PetalWidthCm'] >2) & (df['PetalLengthCm'] < 5.5)
+mask_PW_PL = (df['body_mass_g'] > 4000) & (df['flipper_length_mm'] < 185)
 df[mask_PW_PL]
