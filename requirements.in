@@ -1,11 +1,21 @@
-# joblib==0.14.1
+# We try to keep this environment in sync with the CoCalc Python 3 (system-wide) environment at
+# https://cocalc.com/doc/software-python.html
+
+black==19.10b0
+isort==4.3.21
+joblib==1.0.1
 jupyter-contrib-nbextensions==0.5.1
-jupyterlab==2.0.1
-# loguru==0.4.1
-# nb-black==1.0.7
-nbdime==2.0.0
-pandas==1.0.3
-pip-tools==5.1.2
-seaborn==0.10.1
-# tqdm==4.46.0
-treon==0.1.3
+jupyterlab==2.3.1
+matplotlib==3.4.1
+pandas==1.2.4
+pip-tools==5.5.0
+pylint==2.5.3
+scikit-learn==0.24.1
+seaborn==0.11.1
+tqdm==4.60.0
+
+
+# We also include the following for repo maintenance.
+flake8
+nbdime
+treon
