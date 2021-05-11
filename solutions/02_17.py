@@ -1,1 +1,1 @@
-df['Species'].value_counts(dropna=False)
+df['flipper_length_mm'].isnull().sum()

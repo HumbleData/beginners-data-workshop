@@ -1,1 +1,1 @@
-df['Species'].value_counts(normalize=True)
+df['sex'].value_counts(dropna=False)

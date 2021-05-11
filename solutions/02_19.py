@@ -1,1 +1,1 @@
-df['PetalLengthCm'].isnull().sum()
+df['species'].value_counts(normalize=True)
