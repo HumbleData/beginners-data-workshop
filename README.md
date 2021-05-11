@@ -1,29 +1,31 @@
 # Beginner's Data Workshop
 
-### If you would like to know more about this workshop, please [apply here](https://forms.gle/t5F6iXLsqeNszt3aA) .
+## ℹ️ If you would like to know more about this workshop, please [apply here](https://forms.gle/t5F6iXLsqeNszt3aA).
 
 ---
 
 ## Load the environment using pip-tools
-```
+
+```bash
 # Activate environment
 workon beginners-data-workshop
 
 # Update packages from requirements.txt
 # If this is the first time, then pip install pip-tools
 pip-sync
- 
+
 # Install new package & update requirements.txt
 pip install new-package-name
 pip freeze  # to check version number
 
-# copy paste package & version to requirements.in
+# Copy paste package & version to requirements.in
 pip-compile
 pip-sync
 ```
 
 ## Setup
-```
+
+```bash
 # Install virtualenv
 pip install virtualenv
 
@@ -47,7 +49,7 @@ workon venv
 deactivate
 
 
-# Create virtualenv & install packasges
+# Create virtualenv & install packages
 mkvirtualenv beginners-data-workshop
 pip install pip-tools
 pip-sync

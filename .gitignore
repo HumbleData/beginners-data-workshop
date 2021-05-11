@@ -5,6 +5,9 @@
 **/__pycache__/*
 *.pyc
 
+# Data
+data/Penguins/my_penguins.csv
+
 # CoCalc
 *.sage-chat
 *.sage-jupyter2
