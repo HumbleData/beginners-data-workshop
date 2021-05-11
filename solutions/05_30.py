@@ -1,1 +1,1 @@
-set(df['city']) - dict_cities.keys()
+set(df["city"]) - dict_cities.keys()

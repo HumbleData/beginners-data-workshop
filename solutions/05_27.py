@@ -1,3 +1,11 @@
-dict_codes = {'BG':'Bulgaria', 'CZ':'Czech Republic', 'IT':'Italy', 'GR':'Greece', 'SI':'Slovenia', 'UK':'United Kingdom'}
+dict_codes = {
+    "BG": "Bulgaria",
+    "CZ": "Czech Republic",
+    "IT": "Italy",
+    "GR": "Greece",
+    "SI": "Slovenia",
+    "UK": "United Kingdom",
+}
 
-df.loc[df['country'].isin(dict_codes.keys()), 'country'] = df.loc[df['country'].isin(dict_codes.keys()), 'country'].map(dict_codes)
+country_in_codes = df["country"].isin(dict_codes.keys())
+df.loc[country_in_codes, "country"] = df.loc[country_in_codes, "country"].map(dict_codes)
