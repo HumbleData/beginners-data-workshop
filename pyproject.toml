@@ -1,0 +1,49 @@
+[tool.black]
+line-length = 100
+target-version = ['py38']
+
+[tool.isort]
+profile = "black"
+line_length = 100
+default_section = "THIRDPARTY"
+sections = "FUTURE,STDLIB,DJANGO,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
+
+[tool.pylint."MESSAGES CONTROL"]
+enable="all"
+max-module-lines = 2000
+max-line-length = 100
+max-locals = 50
+min-similarity-lines = 50
+max-statements = 89
+max-args = 22
+max-branches = 13
+good-names = [
+    "i",
+    "j",
+    "k"
+]
+disable = [
+    "broad-except",
+    "fixme",
+    "import-outside-toplevel",
+    "logging-fstring-interpolation",
+    "missing-class-docstring",
+    "missing-function-docstring",
+    "missing-module-docstring",
+    "signature-differs",
+    "too-few-public-methods", # flags errors for attrs.
+    "abstract-class-instantiated", # https://github.com/PyCQA/pylint/issues/3060
+    "protected-access", # datapraxis/xtabs/translations.py:130:12: W0212: Access to a protected member _pb of a client class
+    "len-as-condition", # numpy doesn't consider arrays as truthy, preferring consistency between list & np.array here.
+    "redefined-argument-from-local", # R1704: Redefining argument with the local name
+    "wrong-import-order", # (this conflicts with isort - trust isort) C0411: standard import "import io" should be placed before "import numpy as np" (wrong-import-order)
+    "no-member", # E1101: Instance of 'Resource' has no 'instances' member (no-member) (from datapraxis/pipeline/backups/stopBackupVM.py:39:18:)
+    "no-name-in-module", # E0611: datapraxis/pipeline/backups/stopBackupVM.py:5:0: E0611: No name 'logging' in module 'google.cloud' (no-name-in-module)
+    "use-a-generator", #  datapraxis/warehouse/irt/plot_likert.py:64:11: R1729: Use a generator instead 'all(var in np.array(POSSIBLE_VALUES) for var in df.melt()['variable'].sort_values().unique())' (use-a-generator)
+    "consider-using-generator", # datapraxis/analysis/slf_report/analyse_data/tests/test_ld_clear_close_loss_win_hex.py:47:18: R1728: Consider using a generator instead 'list(close_color[x] for x in sorted(close_color.keys()))' (consider-using-generator)
+    "locally-disabled", # permit `# pylint=disable` comments
+    "suppressed-message", # permit `# pylint=disable` comments, when another message would have been raised
+    "missing-final-newline",
+    "invalid-name",
+]
+logging-format-style="new"
