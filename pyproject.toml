@@ -1,0 +1,49 @@
+[tool.black]
+line-length = 100
+target-version = ['py38']
+
+[tool.isort]
+profile = "black"
+line_length = 100
+default_section = "THIRDPARTY"
+sections = "FUTURE,STDLIB,DJANGO,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
+
+[tool.pylint."MESSAGES CONTROL"]
+enable="all"
+max-module-lines = 2000
+max-line-length = 100
+max-locals = 50
+min-similarity-lines = 50
+max-statements = 89
+max-args = 22
+max-branches = 13
+good-names = [
+    "i",
+    "j",
+    "k"
+]
+disable = [
+    "broad-except",
+    "fixme",
+    "import-outside-toplevel",
+    "logging-fstring-interpolation",
+    "missing-class-docstring",
+    "missing-function-docstring",
+    "missing-module-docstring",
+    "signature-differs",
+    "too-few-public-methods",
+    "abstract-class-instantiated",
+    "protected-access",
+    "len-as-condition",
+    "redefined-argument-from-local",
+    "wrong-import-order",
+    "no-member",
+    "no-name-in-module",
+    "use-a-generator",
+    "consider-using-generator",
+    "locally-disabled",
+    "suppressed-message",
+    "missing-final-newline",
+    "invalid-name",
+]
+logging-format-style="new"
