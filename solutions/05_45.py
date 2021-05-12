@@ -1,1 +1,1 @@
-df.sort_values(['duration', 'Attendees'], ascending=[True, False])
+df.sort_values(["duration", "Attendees"], ascending=[True, False])

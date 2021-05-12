@@ -1,1 +1,1 @@
-df[df['DateFrom']>'2017-02-01']
+df[df["DateFrom"] > "2017-02-01"]

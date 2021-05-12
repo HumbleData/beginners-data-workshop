@@ -1,0 +1,62 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [],
+    "python.linting.pylintArgs": [],
+    "python.linting.pylintUseMinimalCheckers": false,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [],
+    "editor.formatOnSave": true,
+    "python.sortImports.args": [
+        "--recursive",
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        // Stop the 'Black does not support "Format Selection"' message every
+        // time you paste something (https://stackoverflow.com/a/63612401/3279076)
+        "editor.formatOnPaste": false
+    },
+    "python.pythonPath": "${env:VIRTUAL_ENV}",
+    // from here: https://github.com/microsoft/vscode-python/wiki/AB-Experiments
+    // being selected made things run differently on different peoples systems.
+    "python.experiments.enabled": false,
+    "cSpell.words": [
+        "adelie",
+        "boxplot",
+        "catplot",
+        "codemirror",
+        "copenhague",
+        "countplot",
+        "df",
+        "df's",
+        "figsize",
+        "giphy",
+        "hola",
+        "isnull",
+        "kernelspec",
+        "lexer",
+        "matplotlib",
+        "mode",
+        "nbformat",
+        "ncols",
+        "notnull",
+        "nrows",
+        "nunique",
+        "pokemons",
+        "pygments",
+        "pyplot",
+        "pythonista",
+        "sandrine",
+        "scatterplots",
+        "scikit",
+        "seaborn",
+        "set",
+        "shape",
+        "statsmodels",
+        "subsetting",
+        "xlabel",
+        "ylabel"
+    ],
+}

@@ -1,1 +1,1 @@
-df.loc[df['city']=='unknown', 'country']
+df.loc[df["city"] == "unknown", "country"]
