@@ -1,4 +1,6 @@
-# Beginner's Data Workshop
+# Humble Data Workshop
+
+[![Humble Data Workshop](./media/humble-data-logo-transparent.png)](https://humbledata.org)
 
 ## ℹ️ If you would like to know more about this workshop, please [apply here](https://forms.gle/t5F6iXLsqeNszt3aA).
 
