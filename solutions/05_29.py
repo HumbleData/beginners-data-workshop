@@ -1,3 +1,10 @@
-dict_capitals = {'Denmark':'copenhague', 'France':'paris', 'Italy':'rome', 'Spain':'madrid', 'United Kingdom':'london'}
+dict_capitals = {
+    "Denmark": "copenhague",
+    "France": "paris",
+    "Italy": "rome",
+    "Spain": "madrid",
+    "United Kingdom": "london",
+}
 
-df.loc[df['city']=='unknown', 'city'] = df.loc[df['city']=='unknown', 'country'].map(dict_capitals) 
+unknown_city = df["city"] == "unknown"
+df.loc[unknown_city, "city"] = df.loc[unknown_city, "country"].map(dict_capitals)

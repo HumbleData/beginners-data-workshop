@@ -1,1 +1,1 @@
-df['Attendees'].apply(f)
+df["Attendees"].apply(f)

@@ -1,1 +1,1 @@
-df_gr['Attendees'].mean()
+df_gr["Attendees"].mean()

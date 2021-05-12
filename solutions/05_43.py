@@ -1,2 +1,2 @@
-df['month'] = df['DateFrom'].dt.month
-df['month'].hist()
+df["month"] = df["DateFrom"].dt.month
+df["month"].hist()

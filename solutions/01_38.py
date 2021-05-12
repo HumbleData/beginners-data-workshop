@@ -1,2 +1,3 @@
 import numpy as np
-np.sin(np.pi/4)
+
+np.sin(np.pi / 4)
