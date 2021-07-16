@@ -8,10 +8,6 @@ anyio==3.0.1
     # via jupyter-server
 appdirs==1.4.4
     # via black
-appnope==0.1.2
-    # via
-    #   ipykernel
-    #   ipython
 argon2-cffi==20.1.0
     # via
     #   jupyter-server
@@ -69,6 +65,12 @@ ipykernel==5.5.4
     #   jupyter-console
     #   notebook
     #   qtconsole
+ipython==7.23.1
+    # via
+    #   ipykernel
+    #   ipywidgets
+    #   jupyter-console
+    #   jupyter-latex-envs
 ipython-genutils==0.2.0
     # via
     #   jupyter-contrib-nbextensions
@@ -77,12 +79,6 @@ ipython-genutils==0.2.0
     #   notebook
     #   qtconsole
     #   traitlets
-ipython==7.23.1
-    # via
-    #   ipykernel
-    #   ipywidgets
-    #   jupyter-console
-    #   jupyter-latex-envs
 ipywidgets==7.6.3
     # via jupyter
 isort==4.3.21
@@ -109,6 +105,8 @@ jsonschema==3.2.0
     # via
     #   jupyterlab-server
     #   nbformat
+jupyter==1.0.0
+    # via treon
 jupyter-client==6.1.12
     # via
     #   ipykernel
@@ -144,22 +142,20 @@ jupyter-latex-envs==1.4.6
     # via jupyter-contrib-nbextensions
 jupyter-nbextensions-configurator==0.4.1
     # via jupyter-contrib-nbextensions
-jupyter-server-mathjax==0.2.2
-    # via nbdime
 jupyter-server==1.7.0
     # via
     #   jupyter-server-mathjax
     #   nbdime
-jupyter==1.0.0
-    # via treon
+jupyter-server-mathjax==0.2.2
+    # via nbdime
+jupyterlab==2.3.1
+    # via -r requirements.in
 jupyterlab-pygments==0.1.2
     # via nbconvert
 jupyterlab-server==1.2.0
     # via jupyterlab
 jupyterlab-widgets==1.0.0
     # via ipywidgets
-jupyterlab==2.3.1
-    # via -r requirements.in
 kiwisolver==1.3.1
     # via matplotlib
 lazy-object-proxy==1.6.0
@@ -168,12 +164,12 @@ lxml==4.6.3
     # via jupyter-contrib-nbextensions
 markupsafe==2.0.0
     # via jinja2
-matplotlib-inline==0.1.2
-    # via ipython
 matplotlib==3.4.1
     # via
     #   -r requirements.in
     #   seaborn
+matplotlib-inline==0.1.2
+    # via ipython
 mccabe==0.6.1
     # via
     #   flake8
@@ -373,7 +369,7 @@ treon==0.1.3
     # via -r requirements.in
 typed-ast==1.4.3
     # via black
-urllib3==1.26.4
+urllib3==1.26.5
     # via requests
 wcwidth==0.2.5
     # via prompt-toolkit
