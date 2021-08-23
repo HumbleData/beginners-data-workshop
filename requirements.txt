@@ -148,7 +148,7 @@ jupyter-server==1.7.0
     #   nbdime
 jupyter-server-mathjax==0.2.2
     # via nbdime
-jupyterlab==2.3.1
+jupyterlab==2.3.2
     # via -r requirements.in
 jupyterlab-pygments==0.1.2
     # via nbconvert
