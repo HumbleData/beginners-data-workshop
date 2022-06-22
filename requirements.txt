@@ -208,7 +208,7 @@ notebook==6.3.0
     #   jupyterlab
     #   jupyterlab-server
     #   widgetsnbextension
-numpy==1.20.3
+numpy==1.22.0
     # via
     #   matplotlib
     #   pandas
