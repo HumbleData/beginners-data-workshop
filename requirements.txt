@@ -195,8 +195,10 @@ nbformat==5.2.0
     #   nbdime
     #   notebook
 nest-asyncio==1.5.1
-    # via nbclient
-notebook==6.3.0
+    # via
+    #   nbclient
+    #   notebook
+notebook==6.4.12
     # via
     #   jupyter
     #   jupyter-contrib-core
@@ -304,7 +306,7 @@ scipy==1.6.3
     #   seaborn
 seaborn==0.11.1
     # via -r requirements.in
-send2trash==1.5.0
+send2trash==1.8.0
     # via
     #   jupyter-server
     #   notebook
