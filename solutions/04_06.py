@@ -1,6 +1,6 @@
-# Remember to run your function 
+# Remember to run your function
 # Such as:
-# 
+#
 # print(f(x))
 #
 
