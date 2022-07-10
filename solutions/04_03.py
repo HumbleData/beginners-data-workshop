@@ -1,2 +1,2 @@
-dict_greeting['Hawaii'] = 'Aloha'
+dict_greeting["Hawaii"] = "Aloha"
 print(dict_greeting)

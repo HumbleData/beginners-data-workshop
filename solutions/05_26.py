@@ -1,1 +1,1 @@
-df['city'] = df['city'].str.replace('/\w*', '')
+df["city"] = df["city"].str.replace("/\w*", "")

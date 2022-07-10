@@ -1,1 +1,1 @@
-df[df['flipper_length_mm'].isnull()].index
+df[df["flipper_length_mm"].isnull()].index

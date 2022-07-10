@@ -1,1 +1,1 @@
-df['country'].value_counts()
+df["country"].value_counts()

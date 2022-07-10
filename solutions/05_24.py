@@ -1,1 +1,1 @@
-df['city'] = df['city'].str.lower()
+df["city"] = df["city"].str.lower()
