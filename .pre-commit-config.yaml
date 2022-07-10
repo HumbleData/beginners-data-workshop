@@ -96,6 +96,7 @@ repos:
         exclude: |
           (?x)^(
               solutions/01_04.py|
+              solutions/01_05.py|
               solutions/02_21.py|
               solutions/04_05.py|
               solutions/05_01.py|
