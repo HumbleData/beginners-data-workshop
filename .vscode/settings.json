@@ -13,7 +13,7 @@
         "python.languageServer": "Pylance",
 
         // python - linting & static analysis
-        "python.analysis.extraPaths": ["peerspot"],
+        "python.analysis.extraPaths": ["solutions"],
         "python.analysis.typeCheckingMode": "basic",
         "python.linting.enabled": true,
         "python.linting.flake8Enabled": true,

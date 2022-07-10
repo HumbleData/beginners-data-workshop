@@ -23,7 +23,7 @@ classifiers = [
 ]
 packages = [
     # Add more packages here, e.g.
-    # { include = "module_name", from = "peerspot" },
+    # { include = "module_name", from = "package_name" },
 ]
 
 [tool.poetry.dependencies]
@@ -53,11 +53,13 @@ flake8-implicit-str-concat = "^0.2.0"
 flake8-print = "^4.0.1"
 flake8-return = "^1.1.3"
 isort = "4.3.21"
+nbdime = "^3.1.1"
 pip-audit = "^1.1.2"
 poetryup = "^0.7.2"
 pre-commit = "^2.19.0"
 pylint = "2.5.3"
 pytest = "^7.1.2"
+treon = "^0.1.3"
 typer = "<0.5.0"
 
 [build-system]
@@ -79,6 +81,7 @@ default_section = "THIRDPARTY"
 sections = "FUTURE,STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
 
 [tool.pylint.MASTER]
+ignore = ["05_34.py"]
 ignore-paths = [".git"]
 load-plugins = []
 
@@ -92,5 +95,16 @@ max-statements = 89
 max-args = 22
 max-branches = 17
 good-names = ["i", "j", "k", "x"]
-# disable = []
+disable = [
+    "expression-not-assigned",
+    "invalid-name",
+    "missing-final-newline",
+    "missing-function-docstring",
+    "missing-module-docstring",
+    "pointless-statement",
+    "syntax-error",
+    "undefined-variable",
+    "unused-import",
+    "used-before-assignment",
+]
 logging-format-style = "new"

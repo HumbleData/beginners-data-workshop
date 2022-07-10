@@ -140,15 +140,14 @@ repos:
     hooks:
       - id: pylint
         name: pylint
-        entry: pylint tests
+        entry: pylint solutions
         language: system
         always_run: true
         pass_filenames: false
-        stages: [manual]
+        # stages: [manual]
       - id: pip-audit
         name: pip-audit
         entry: pip-audit
         language: system
         always_run: true
         pass_filenames: false
-        stages: [manual]
