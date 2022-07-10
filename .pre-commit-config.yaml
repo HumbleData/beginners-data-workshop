@@ -13,12 +13,12 @@ repos:
       - id: trailing-whitespace
       - id: check-builtin-literals
         exclude: |
-            (?x)^(
-                solutions/02_21.py|
-                solutions/04_05.py|
-                solutions/05_01.py|
-                solutions/05_12.py
-            )$
+          (?x)^(
+              solutions/02_21.py|
+              solutions/04_05.py|
+              solutions/05_01.py|
+              solutions/05_12.py
+          )$
       - id: check-byte-order-marker
       - id: check-case-conflict
       - id: check-merge-conflict
@@ -28,12 +28,12 @@ repos:
       - id: check-xml
       - id: debug-statements
         exclude: |
-              (?x)^(
-                  solutions/02_21.py|
-                  solutions/04_05.py|
-                  solutions/05_01.py|
-                  solutions/05_12.py
-              )$
+          (?x)^(
+              solutions/02_21.py|
+              solutions/04_05.py|
+              solutions/05_01.py|
+              solutions/05_12.py
+          )$
       - id: detect-private-key
       - id: mixed-line-ending
       - id: fix-encoding-pragma
@@ -44,12 +44,12 @@ repos:
         args: ["--maxkb=5120"]
       - id: check-ast
         exclude: |
-                (?x)^(
-                    solutions/02_21.py|
-                    solutions/04_05.py|
-                    solutions/05_01.py|
-                    solutions/05_12.py
-                )$
+          (?x)^(
+              solutions/02_21.py|
+              solutions/04_05.py|
+              solutions/05_01.py|
+              solutions/05_12.py
+          )$
       - id: check-docstring-first
   - repo: https://github.com/myint/autoflake
     rev: v1.4
@@ -62,9 +62,9 @@ repos:
           - --remove-duplicate-keys
           - --remove-unused-variables
         exclude: |
-              (?x)^(
-                  solutions/02_01.py
-              )$
+          (?x)^(
+              solutions/02_01.py
+          )$
   - repo: https://gitlab.com/pycqa/flake8
     rev: 3.9.2
     hooks:
@@ -91,12 +91,12 @@ repos:
     hooks:
       - id: black
         exclude: |
-                  (?x)^(
-                      solutions/02_21.py|
-                      solutions/04_05.py|
-                      solutions/05_01.py|
-                      solutions/05_12.py
-                  )$
+          (?x)^(
+              solutions/02_21.py|
+              solutions/04_05.py|
+              solutions/05_01.py|
+              solutions/05_12.py
+          )$
   - repo: local
     hooks:
       - id: linestripper-remove
