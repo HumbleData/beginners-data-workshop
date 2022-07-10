@@ -12,6 +12,14 @@ repos:
         exclude: ^solutions/
       - id: trailing-whitespace
       - id: check-builtin-literals
+        exclude: |
+            (?x)^(
+                solutions/01_04.py|
+                solutions/02_21.py|
+                solutions/04_05.py|
+                solutions/05_01.py|
+                solutions/05_12.py
+            )$
       - id: check-byte-order-marker
       - id: check-case-conflict
       - id: check-merge-conflict
