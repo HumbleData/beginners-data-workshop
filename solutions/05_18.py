@@ -1,1 +1,1 @@
-df = df.drop('Location', axis=1)
+df = df.drop("Location", axis=1)

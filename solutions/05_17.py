@@ -1,1 +1,1 @@
-df[['city', 'country']] = df['Location'].str.split(pat=';', expand=True)
+df[["city", "country"]] = df["Location"].str.split(pat=";", expand=True)

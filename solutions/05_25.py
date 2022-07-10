@@ -1,1 +1,1 @@
-df['city'][df['city'].str.contains('/')]
+df["city"][df["city"].str.contains("/")]

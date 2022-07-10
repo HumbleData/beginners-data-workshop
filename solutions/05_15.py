@@ -1,1 +1,1 @@
-df['Location'].str.split(pat=';')
+df["Location"].str.split(pat=";")

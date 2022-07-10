@@ -1,1 +1,1 @@
-len('Sandrine') > 8
+len("Sandrine") > 8

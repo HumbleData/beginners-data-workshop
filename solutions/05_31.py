@@ -6,5 +6,5 @@ dict_cities.update(
         "lyon": "France",
         "murcia": "Spain",
         "parma": "Italy",
-    }
+    },
 )

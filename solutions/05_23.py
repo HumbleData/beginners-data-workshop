@@ -1,1 +1,1 @@
-df[df['country'] == 'Portugal']
+df[df["country"] == "Portugal"]
