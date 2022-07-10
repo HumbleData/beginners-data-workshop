@@ -14,6 +14,7 @@ repos:
       - id: check-builtin-literals
         exclude: |
           (?x)^(
+              solutions/01_04.py|
               solutions/02_21.py|
               solutions/04_05.py|
               solutions/05_01.py|
@@ -29,6 +30,7 @@ repos:
       - id: debug-statements
         exclude: |
           (?x)^(
+              solutions/01_04.py|
               solutions/02_21.py|
               solutions/04_05.py|
               solutions/05_01.py|
@@ -45,6 +47,7 @@ repos:
       - id: check-ast
         exclude: |
           (?x)^(
+              solutions/01_04.py|
               solutions/02_21.py|
               solutions/04_05.py|
               solutions/05_01.py|
@@ -92,6 +95,7 @@ repos:
       - id: black
         exclude: |
           (?x)^(
+              solutions/01_04.py|
               solutions/02_21.py|
               solutions/04_05.py|
               solutions/05_01.py|

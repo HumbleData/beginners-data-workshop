@@ -1,1 +1,1 @@
-len(name)
+len(snakes)
