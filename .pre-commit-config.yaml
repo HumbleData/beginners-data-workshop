@@ -14,7 +14,6 @@ repos:
       - id: check-builtin-literals
         exclude: |
             (?x)^(
-                solutions/01_04.py|
                 solutions/02_21.py|
                 solutions/04_05.py|
                 solutions/05_01.py|
@@ -28,6 +27,13 @@ repos:
       - id: check-vcs-permalinks
       - id: check-xml
       - id: debug-statements
+        exclude: |
+              (?x)^(
+                  solutions/02_21.py|
+                  solutions/04_05.py|
+                  solutions/05_01.py|
+                  solutions/05_12.py
+              )$
       - id: detect-private-key
       - id: mixed-line-ending
       - id: fix-encoding-pragma
@@ -37,6 +43,13 @@ repos:
         name: Check for files larger than 5 MB
         args: ["--maxkb=5120"]
       - id: check-ast
+        exclude: |
+                (?x)^(
+                    solutions/02_21.py|
+                    solutions/04_05.py|
+                    solutions/05_01.py|
+                    solutions/05_12.py
+                )$
       - id: check-docstring-first
   - repo: https://github.com/myint/autoflake
     rev: v1.4
