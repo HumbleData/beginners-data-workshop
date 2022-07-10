@@ -25,36 +25,39 @@ pip-compile
 pip-sync
 ```
 
-## Setup
+## Attendee Setup
+
+1. Visit [https://bit.ly/humble-python-setup] to install Python onto your machine.
+2. The notebooks in this project should work great with Anaconda out of the box. If you want to create your own virtual
+   environment for this workshop, your mentor will guide you through the simplest setup.
+
+> Note: The Development Setup outlined below will work for you, but is more complex than what you need to follow this
+  workshop. This setup is designed to make it easy to upgrade Python dependencies (e.g. pandas, Seaborn), and run
+  automated checks to highlight if any code in the notebooks is broken (we call this a "test suite").
+
+## Development Setup
+
+This project uses [pyenv](https://github.com/pyenv/pyenv), [pyenv-virtualenvwrapper](https://github.com/pyenv/pyenv-virtualenvwrapper)
+and [Poetry](https://python-poetry.org/docs/). Please [see here](https://github.com/CoefficientSystems/coefficient-cookiecutter/blob/develop/%7B%7Bcookiecutter.repo_name%7D%7D/docs/getting_started.md) for a step-by-step installation guide.
 
 ```bash
-# Install virtualenv
-pip install virtualenv
+# Install Python
+pyenv install $(cat .python-version)
+pyenv shell $(cat .python-version)
+python -m pip install --upgrade pip
+python -m pip install virtualenvwrapper
+pyenv virtualenvwrapper
 
+# Setup the virtualenv
+mkvirtualenv -p python$(cat .python-version) $(cat .venv)
+python -V
+python -m pip install --upgrade pip
 
-# Install virtualenvwrapper (http://virtualenvwrapper.readthedocs.org/en/latest/index.html)
-pip install virtualenvwrapper
-# Tell shell to source virtualenvwrapper.sh and where to put the virtualenvs by adding following to .zshrc
-zshconfig
-#    # "Tell shell to source virtualenvwrapper.sh and where to put the virtualenvs"
-#    export WORKON_HOME=$HOME/.virtualenvs
-#    export PROJECT_HOME=$HOME/code
-#    source /usr/local/bin/virtualenvwrapper.sh
-source ~/.zshrc
-source /usr/local/bin/virtualenvwrapper.sh
-# Now let's make a virtualenv
-mkvirtualenv venv
-workon venv
-# Commands `workon venv`, `deactivate`, `lsvirtualenv` and `rmvirtualenv` are useful
-# WARNING: When you brew install formulae that provide Python bindings, you should not be in an active virtual environment.
-# (https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Homebrew-and-Python.md)
-deactivate
+# Install dependencies with Poetry
+poetry self update
+poetry install --no-root --remove-untracked
 
-
-# Create virtualenv & install packages
-mkvirtualenv beginners-data-workshop
-pip install pip-tools
-pip-sync
+# Create Jupyter Kernel
 python -m ipykernel install --user --name beginners-data-workshop --display-name "Python (beginners-data-workshop)"
 
 # Install Jupyter Extensions static files
