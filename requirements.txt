@@ -24,7 +24,7 @@ idna==3.3; python_full_version >= "3.6.2" and python_version >= "3.7" and python
 importlib-metadata==4.12.0; python_version < "3.10" and python_version >= "3.7"
 ipykernel==6.15.1; python_version >= "3.7"
 ipython-genutils==0.2.0; python_version >= "3.7"
-ipython==7.34.0; python_version >= "3.7"
+ipython==8.10.0; python_version >= "3.7"
 jedi==0.18.1; python_version >= "3.7"
 jinja2==3.1.2; python_version >= "3.7"
 joblib==1.1.0; python_version >= "3.6"
