@@ -1,12 +1,12 @@
-# Humble Data Workshop
+# Humble Data Workshop (Taller de datos humildes)
 
 [![Humble Data Workshop](./media/humble-data-logo-transparent.png)](https://humbledata.org)
 
-## ℹ️ If you would like to know more about this workshop, please [apply here](https://forms.gle/t5F6iXLsqeNszt3aA).
+## ℹ️ Si desea saber más sobre este taller, por favor [solicite aquí](https://forms.gle/t5F6iXLsqeNszt3aA).
 
 ---
 
-## Load the environment using pip-tools
+## Cargue el entorno usando pip-tools
 
 ```bash
 # Activate environment
@@ -25,20 +25,20 @@ pip-compile
 pip-sync
 ```
 
-## Attendee Setup
+## Configuración de asistentes
 
-1. Visit [https://bit.ly/humble-python-setup] to install Python onto your machine.
-2. The notebooks in this project should work great with Anaconda out of the box. If you want to create your own virtual
-   environment for this workshop, your mentor will guide you through the simplest setup.
+1. Visite [https://bit.ly/humble-python-setup] para instalar Python en su máquina.
+2. Los cuadernos de este proyecto deberían funcionar muy bien con Anaconda lista para usar. Si quieres crear tu propia virtual
+   ambiente para este taller, su mentor lo guiará a través de la configuración más simple.
 
-> Note: The Development Setup outlined below will work for you, but is more complex than what you need to follow this
-  workshop. This setup is designed to make it easy to upgrade Python dependencies (e.g. pandas, Seaborn), and run
-  automated checks to highlight if any code in the notebooks is broken (we call this a "test suite").
+> Nota: la configuración de desarrollo que se describe a continuación funcionará para usted, pero es más compleja de lo que necesita para seguir este
+  taller. Esta configuración está diseñada para facilitar la actualización de las dependencias de Python (por ejemplo, pandas, Seaborn) y ejecutar
+  verificaciones automáticas para resaltar si algún código en los cuadernos está roto (lo llamamos "conjunto de pruebas").
 
-## Development Setup
+## Configuración de desarrollo
 
-This project uses [pyenv](https://github.com/pyenv/pyenv), [pyenv-virtualenvwrapper](https://github.com/pyenv/pyenv-virtualenvwrapper)
-and [Poetry](https://python-poetry.org/docs/). Please [see here](https://github.com/CoefficientSystems/coefficient-cookiecutter/blob/develop/%7B%7Bcookiecutter.repo_name%7D%7D/docs/getting_started.md) for a step-by-step installation guide.
+Este proyecto utiliza [pyenv](https://github.com/pyenv/pyenv), [pyenv-virtualenvwrapper](https://github.com/pyenv/pyenv-virtualenvwrapper)
+y [Poetry](https://python-poetry.org/docs/). Consulte [aquí](https://github.com/CoefficientSystems/coefficient-cookiecutter/blob/develop/%7B%7Bcookiecutter.repo_name%7D%7D/docs/getting_started.md)  para obtener una guía de instalación paso a paso.
 
 ```bash
 # Install Python
@@ -67,6 +67,6 @@ jupyter contrib nbextension install --user
 
 ---
 
-## License
+## Licencia
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Esta obra está licenciada bajo un<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Licencia Internacional</a>.
