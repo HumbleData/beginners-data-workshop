@@ -1,12 +1,12 @@
-# Humble Data Workshop
+# Humble Data 工作坊
 
 [![Humble Data Workshop](./media/humble-data-logo-transparent.png)](https://humbledata.org)
 
-## ℹ️ If you would like to know more about this workshop, please [apply here](https://forms.gle/t5F6iXLsqeNszt3aA).
+## ℹ️ 如果您想了解更多關於Humble Data工作坊的信息，請[在此申請](https://forms.gle/t5F6iXLsqeNszt3aA).
 
 ---
 
-## Load the environment using pip-tools
+## 使用 pip-tools 載入環境
 
 ```bash
 # Activate environment
@@ -25,20 +25,17 @@ pip-compile
 pip-sync
 ```
 
-## Attendee Setup
+## 參與者設定
 
-1. Visit [https://bit.ly/humble-python-setup] to install Python onto your machine.
-2. The notebooks in this project should work great with Anaconda out of the box. If you want to create your own virtual
-   environment for this workshop, your mentor will guide you through the simplest setup.
+1. 造訪 [https://bit.ly/humble-python-setup] 將 Python 安裝到您的電腦上。
+2. 該專案中的筆記本應該可以很好地與 Anaconda 配合使用。 如果您想為本次研討會創建自己的虛擬環境，您的導師將引導您最簡單的設定。
 
-> Note: The Development Setup outlined below will work for you, but is more complex than what you need to follow this
-  workshop. This setup is designed to make it easy to upgrade Python dependencies (e.g. pandas, Seaborn), and run
-  automated checks to highlight if any code in the notebooks is broken (we call this a "test suite").
+> 注意：下面概述的開發設定將適合您，但比您遵循本研討會所需的更複雜。 此設定旨在輕鬆升級 Python 依賴項（例如 pandas、Seaborn），並執行自動檢查以突出顯示筆記本中的任何程式碼是否損壞（我們稱之為「測試套件」）。
 
-## Development Setup
+## 開發設定
 
-This project uses [pyenv](https://github.com/pyenv/pyenv), [pyenv-virtualenvwrapper](https://github.com/pyenv/pyenv-virtualenvwrapper)
-and [Poetry](https://python-poetry.org/docs/). Please [see here](https://github.com/CoefficientSystems/coefficient-cookiecutter/blob/develop/%7B%7Bcookiecutter.repo_name%7D%7D/docs/getting_started.md) for a step-by-step installation guide.
+本計畫使用[pyenv](https://github.com/pyenv/pyenv)、[pyenv-virtualenvwrapper](https://github.com/pyenv/pyenv-virtualenvwrapper)
+和[Poetry](https://python-poetry.org/docs/)。 請[請參閱此處](https://github.com/CoefficientSystems/coefficient-cookiecutter/blob/develop/%7B%7Bcookiecutter.repo_name%7D%7D/docs/getting_started.md)取得逐步安裝指南。
 
 ```bash
 # Install Python
