@@ -32,7 +32,7 @@ python = "^3.9.13"
 # We try to keep this environment in sync with the CoCalc Python 3 (system-wide) environment at
 # https://cocalc.com/doc/software-python.html
 black = "^22.3.0"
-joblib = "1.1.1"
+joblib = "1.2.0"
 ipykernel = "^6.15.1"
 jupyter-black = "^0.3.1"
 jupyter-contrib-nbextensions = "0.5.1"
