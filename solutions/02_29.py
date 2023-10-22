@@ -1,1 +1,1 @@
-df_4.min()
+df_4.min(numeric_only=True)

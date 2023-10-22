@@ -1,1 +1,1 @@
-df_4.groupby("species").median()
+df_4.groupby("species").median(numeric_only=True)
