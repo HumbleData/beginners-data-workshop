@@ -14,5 +14,6 @@ data/Penguins/my_penguins.csv
 
 # Other
 .DS_Store
+.vscode
 
 env_workshop/
