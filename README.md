@@ -2,68 +2,69 @@
 
 [![Humble Data Workshop](./media/humble-data-logo-transparent.png)](https://humbledata.org)
 
-## ℹ️ If you would like to know more about this workshop, please [apply here](https://forms.gle/t5F6iXLsqeNszt3aA).
+## ℹ️ If you would like to know more about this workshop, please [email us](mailto:contact@humbledata.org).
 
 ---
 
-## Load the environment using pip-tools
+## Local environment set up
 
-```bash
-# Activate environment
-workon beginners-data-workshop
+### Installing Miniconda
 
-# Update packages from requirements.txt
-# If this is the first time, then pip install pip-tools
-pip-sync
+#### Windows
+1. Download the Miniconda installer for Windows from the [official website](https://docs.conda.io/en/latest/miniconda.html)
+2. Double-click the downloaded `.exe` file
+3. Follow the installation prompts:
+   - Click "Next"
+   - Accept the license terms
+   - Select "Just Me" for installation scope
+   - Choose an installation directory (default is recommended)
+   - In "Advanced Options", check "Add Miniconda3 to my PATH environment variable"
+   - Click "Install"
 
-# Install new package & update requirements.txt
-pip install new-package-name
-pip freeze  # to check version number
+#### Unix (Linux/macOS)
+1. Download the Miniconda installer for your system from the [official website](https://docs.conda.io/en/latest/miniconda.html)
+2. Open Terminal
+3. Navigate to the directory containing the downloaded file
+4. Make the installer executable:
+   ```bash
+   chmod +x Miniconda3-latest-*-x86_64.sh
+   ```
+5. Run the installer:
+   ```bash
+   ./Miniconda3-latest-*-x86_64.sh
+   ```
+6. Follow the prompts:
+   - Press Enter to review the license agreement
+   - Type "yes" to accept the license terms
+   - Confirm the installation location (default is recommended)
+   - Type "yes" to initialize Miniconda3
 
-# Copy paste package & version to requirements.in
-pip-compile
-pip-sync
-```
+### Creating and Activating the Environment
 
-## Attendee Setup
+1. Open a new terminal (Windows: Anaconda Prompt, Unix: Terminal)
+2. Create a new environment named 'humble-data':
+   ```bash
+   conda create -n humble-data python=3.8
+   ```
+3. Activate the environment:
+   - Windows:
+     ```bash
+     conda activate humble-data
+     ```
+   - Unix:
+     ```bash
+     conda activate humble-data
+     ```
+4. Install required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-1. Visit [https://bit.ly/humble-python-setup] to install Python onto your machine.
-2. The notebooks in this project should work great with Anaconda out of the box. If you want to create your own virtual
-   environment for this workshop, your mentor will guide you through the simplest setup.
-
-> Note: The Development Setup outlined below will work for you, but is more complex than what you need to follow this
-  workshop. This setup is designed to make it easy to upgrade Python dependencies (e.g. pandas, Seaborn), and run
-  automated checks to highlight if any code in the notebooks is broken (we call this a "test suite").
-
-## Development Setup
-
-This project uses [pyenv](https://github.com/pyenv/pyenv), [pyenv-virtualenvwrapper](https://github.com/pyenv/pyenv-virtualenvwrapper)
-and [Poetry](https://python-poetry.org/docs/). Please [see here](https://github.com/CoefficientSystems/coefficient-cookiecutter/blob/develop/%7B%7Bcookiecutter.repo_name%7D%7D/docs/getting_started.md) for a step-by-step installation guide.
-
-```bash
-# Install Python
-pyenv install $(cat .python-version)
-pyenv shell $(cat .python-version)
-python -m pip install --upgrade pip
-python -m pip install virtualenvwrapper
-pyenv virtualenvwrapper
-
-# Setup the virtualenv
-mkvirtualenv -p python$(cat .python-version) $(cat .venv)
-python -V
-python -m pip install --upgrade pip
-
-# Install dependencies with Poetry
-poetry self update
-poetry install --no-root --remove-untracked
-
-# Create Jupyter Kernel
-python -m ipykernel install --user --name beginners-data-workshop --display-name "Python (beginners-data-workshop)"
-
-# Install Jupyter Extensions static files
-jupyter contrib nbextension install --user
-# More info: https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html
-```
+5. Start Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+   This will open Jupyter Notebook in your default web browser. You can now navigate to and open any of the workshop notebooks.
 
 ---
 
