@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 <!-- TOWNCRIER -->
 
+## [2.0.0] -2025-02-01
+
+- simplify set up process and instructions
+- restructure and put all the notebooks in the root directory for easy access in Colab
+- use `!cat` instead of load magic to load solution as load magics are not implemented in some environments
+
 ## [1.1.0] - 2022-07-10
 
 - Various upgrades ([#40](https://github.com/HumbleData/beginners-data-workshop/pull/40))
