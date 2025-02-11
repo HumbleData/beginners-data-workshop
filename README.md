@@ -73,10 +73,10 @@
 1. Go to [https://githubtocolab.com/HumbleData/beginners-data-workshop](https://githubtocolab.com/HumbleData/beginners-data-workshop)  
 2. Choose the notebook that you want to open  
    ![open a notebook in colab](media/colab/image10.png)
-3. Click on the file icon <img src="media/colab/image9.png" alt="file icon" width="25"/> on the left  
+3. Click on the file icon <img src="media/colab/image9.png" alt="file icon" width="30"/> on the left  
 4. If you haven’t logged in to your Google account, you will be asked to do so  
    ![sign in to Google](media/colab/image2.png)  
-5. At the beginning of the notebook, add a cell by clicking the <img src="media/colab/image8.png" alt="add code icon" width="50"/> button at the top  
+5. At the beginning of the notebook, add a cell by clicking the <img src="media/colab/image8.png" alt="add code icon" width="60"/> button at the top  
    ![adding a code block](media/colab/image1.png) 
 6. After that copy and paste the following codes in the new cell:  
    ``` 
