@@ -5,8 +5,56 @@
 ## ℹ️ If you would like to know more about this workshop, please [email us](mailto:contact@humbledata.org).
 
 ---
+## Table of Contents
 
-## Local environment set up
+* [Google Colab setup](#google-colab-setup)
+* [Local environment setup](#local-environment-setup)
+   + [Installing Miniconda](#installing-miniconda)
+      - [Windows](#windows)
+      - [Unix (Linux/macOS)](#unix-linuxmacos)
+   + [Creating and Activating the Environment](#creating-and-activating-the-environment)
+
+* [License](#license)
+
+---
+
+## Google Colab setup
+
+1. Go to [https://githubtocolab.com/HumbleData/beginners-data-workshop](https://githubtocolab.com/HumbleData/beginners-data-workshop)  
+2. Choose the notebook that you want to open  
+   ![open a notebook in colab](media/colab/image10.png)
+3. Click on the file icon <img src="media/colab/image9.png" alt="file icon" width="30"/> on the left  
+4. If you haven’t logged in to your Google account, you will be asked to do so  
+   ![sign in to Google](media/colab/image2.png)  
+5. At the beginning of the notebook, add a cell by clicking the <img src="media/colab/image8.png" alt="add code icon" width="60"/> button at the top  
+   ![adding a code block](media/colab/image1.png) 
+6. After that copy and paste the following codes in the new cell:  
+   ``` 
+   !git clone https://github.com/HumbleData/beginners-data-workshop.git  
+   !cp -r beginners-data-workshop/media/ .  
+   !cp -r beginners-data-workshop/data/ .  
+   !cp -r beginners-data-workshop/solutions/ .  
+   !rm -r beginners-data-workshop/  
+   ``` 
+   > NOTE: You will need to add this code cell to every notebook you start.
+
+   ![adding the script shown above](media/colab/image7.png)  
+7. Run the cell by clicking the play button on the left of the cell or press shift \+ enter on your keyboard  
+   ![running the script shown above](media/colab/image4.png)
+8. You may get this warning when running the first code block. Click “Run anyway” when asked (because you trust us not giving you malicious code).
+   ![warning about running code in colab](media/colab/image3.png)
+9. When the code is finished (it may take a moment), you should see that three folders are added to your files. Consider the preparation work done and you may now start using the notebook.
+   
+   <img src="media/colab/image5.png" alt="new files added" width="40%"/>
+10. Note that when you disconnect from the notebook (or leave it inactive for a long time) the files we just download with the code and your work is not saved.
+
+    Consider downloading or saving your work in drive before you leave this notebook. You can do so by clicking on the “File” button at the bottom.
+
+    <img src="media/colab/image6.png" alt="saving or downloading file to keep your work" width="60%"/>
+
+---
+
+## Local environment setup
 
 ### Installing Miniconda
 
@@ -65,40 +113,6 @@
    jupyter notebook
    ```
    This will open Jupyter Notebook in your default web browser. You can now navigate to and open any of the workshop notebooks.
-
----
-
-## Google Colab setup
-
-1. Go to [https://githubtocolab.com/HumbleData/beginners-data-workshop](https://githubtocolab.com/HumbleData/beginners-data-workshop)  
-2. Choose the notebook that you want to open  
-   ![open a notebook in colab](media/colab/image10.png)
-3. Click on the file icon <img src="media/colab/image9.png" alt="file icon" width="30"/> on the left  
-4. If you haven’t logged in to your Google account, you will be asked to do so  
-   ![sign in to Google](media/colab/image2.png)  
-5. At the beginning of the notebook, add a cell by clicking the <img src="media/colab/image8.png" alt="add code icon" width="60"/> button at the top  
-   ![adding a code block](media/colab/image1.png) 
-6. After that copy and paste the following codes in the new cell:  
-   ``` 
-   !git clone https://github.com/HumbleData/beginners-data-workshop.git  
-   !cp -r beginners-data-workshop/media/ .  
-   !cp -r beginners-data-workshop/data/ .  
-   !cp -r beginners-data-workshop/solutions/ .  
-   !rm -r beginners-data-workshop/  
-   ``` 
-   ![adding the script shown above](media/colab/image7.png)  
-7. Run the cell by clicking the play button on the left of the cell or press shift \+ enter on your keyboard  
-   ![running the script shown above](media/colab/image4.png)
-8. You may get this warning when running the first code block. Click “Run anyway” when asked (because you trust us not giving you malicious code).
-   ![warning about running code in colab](media/colab/image3.png)
-9. When the code is finished (it may take a moment), you should see that three folders are added to your files. Consider the preparation work done and you may now start using the notebook.
-   
-   <img src="media/colab/image5.png" alt="new files added" width="40%"/>
-10. Note that when you disconnect from the notebook (or leave it inactive for a long time) the files we just download with the code and your work is not saved.
-
-    Consider downloading or saving your work in drive before you leave this notebook. You can do so by clicking on the “File” button at the bottom.
-
-    <img src="media/colab/image6.png" alt="saving or downloading file to keep your work" width="60%"/>
 
 ---
 
