@@ -8,7 +8,7 @@
 ## Table of Contents
 
 * [Google Colab setup](#google-colab-setup)
-* [Local environment set up](#local-environment-set-up)
+* [Local environment setup](#local-environment-setup)
    + [Installing Miniconda](#installing-miniconda)
       - [Windows](#windows)
       - [Unix (Linux/macOS)](#unix-linuxmacos)
