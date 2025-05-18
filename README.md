@@ -56,6 +56,14 @@
 
 ## Local environment setup
 
+### UV Installation
+1. Create a virtual python virtual environment 3.10+
+	* `uv venv humble-data-workshop --python 3.10`
+2. Activate the virtual environment.
+	* `source humble-data-workshop/bin/activate`
+3. Install Dependencies 
+	* `uv pip install -r requirements.txt`
+
 ### Installing Miniconda
 
 #### Windows
