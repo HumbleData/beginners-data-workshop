@@ -6,16 +6,15 @@
 
 ---
 ## Table of Contents
-
 * [Google Colab setup](#google-colab-setup)
 * [Local environment setup](#local-environment-setup)
-   + [Installing Miniconda](#installing-miniconda)
-      - [Windows](#windows)
-      - [Unix (Linux/macOS)](#unix-linuxmacos)
-   + [Creating and Activating the Environment](#creating-and-activating-the-environment)
+	+ [UV Installation](#uv-installation)
+	+ [Installing Miniconda](#installing-miniconda)
+ 		- [Windows](#windows)
+ 		- [Unix (Linux/macOS)](#unix-linuxmacos)
++ [Creating and Activating the Environment](#creating-and-activating-the-environment)
 
 * [License](#license)
-
 ---
 
 ## Google Colab setup
@@ -56,7 +55,13 @@
 
 ## Local environment setup
 
+This document contains instructions on how to run the workshop using either `uv` or `conda` (Miniconda).
+
 ### UV Installation
+To run this workshop locally using `uv`, first you will need to [install uv](https://docs.astral.sh/uv/getting-started/installation/) on your computer.
+
+Once it is done, follow the instructions below:
+
 1. Create a virtual python virtual environment 3.10+
 	* `uv venv humble-data-workshop --python 3.10`
 2. Activate the virtual environment.
