@@ -127,6 +127,25 @@ Once it is done, follow the instructions below:
    ```
    This will open Jupyter Notebook in your default web browser. You can now navigate to and open any of the workshop notebooks.
 
+## Contributing
+
+1. Fork this repository
+2. Clone your fork locally
+3. Create a branch for your changes:
+```git checkout -b improve-notebook-x```
+
+4. Make your changes:
+
+- Keep explanations simple and beginner-friendly
+- Test notebooks in both Google Colab and local environments
+- Follow existing code style and formatting
+
+
+5. Commit with a clear message:
+```git commit -m "Fix typo in data visualization notebook"```
+
+6. Push and create a pull request
+
 ---
 
 ## License
