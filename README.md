@@ -29,7 +29,9 @@ The materials can also be cloned from our [GitHub repo](https://github.com/Humbl
 
 Please contact us if you'd like to help out the project by translating the materials into other languages! 
 
-## Local environment setup
+### Installing the materials locally
+
+If you're interested in learning how to manage your own Python Environment you will need to install the materials locally. Instructions on how to do this are provided below. Don't worry if you've never done this before—these instructions are designed for complete beginners and will walk you through each step.
 
 To run these notebooks on on your machine you must set up a *Python environment*. This document contains instructions on how to run the workshop using either `uv` or `conda` (Miniconda).
 
