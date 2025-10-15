@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15afb5af-cf02-4a98-9e8e-fcb945c17d46" name="Changes" comment="Update image icon widths in README instructions  &#10;&#10;Adjusted the widths of the file and add code icons in the README for improved visual clarity. This ensures better alignment and consistency in the documentation layout." />
+    <list default="true" id="15afb5af-cf02-4a98-9e8e-fcb945c17d46" name="Changes" comment="Update image icon widths in README instructions  &#10;&#10;Adjusted the widths of the file and add code icons in the README for improved visual clarity. This ensures better alignment and consistency in the documentation layout.">
+      <change beforePath="$PROJECT_DIR$/1. Beginning with Python.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/1. Beginning with Python.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +108,7 @@
       <workItem from="1738691836839" duration="75000" />
       <workItem from="1738691920811" duration="19000" />
       <workItem from="1739315051289" duration="2939000" />
-      <workItem from="1760533050156" duration="485000" />
+      <workItem from="1760533050156" duration="990000" />
     </task>
     <task id="LOCAL-00001" summary="Add introductory notebooks for Python and pandas basics&#10;&#10;Created two new Jupyter notebooks: one for basic Python concepts and another for introductory data manipulation with pandas. These notebooks include explanatory content, examples, and exercises for new learners.">
       <option name="closed" value="true" />
