@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="15afb5af-cf02-4a98-9e8e-fcb945c17d46" name="Changes" comment="Update image icon widths in README instructions  &#10;&#10;Adjusted the widths of the file and add code icons in the README for improved visual clarity. This ensures better alignment and consistency in the documentation layout." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Cheukting&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:HumbleData/beginners-data-workshop.git&quot;,
+    &quot;accountId&quot;: &quot;b18682a7-a8c6-47a0-b7ba-58699a30d33b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2sRnhHNhGDHh9pYJH2i1uYb1Rpm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "korean",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/cheuktingho/Tutorial/humble-data/beginners-data-workshop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.26830.99" />
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15afb5af-cf02-4a98-9e8e-fcb945c17d46" name="Changes" comment="" />
+      <created>1738427372032</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738427372032</updated>
+      <workItem from="1738427373350" duration="9882000" />
+      <workItem from="1738610445446" duration="38000" />
+      <workItem from="1738666382560" duration="135000" />
+      <workItem from="1738666532513" duration="312000" />
+      <workItem from="1738666858017" duration="466000" />
+      <workItem from="1738667332422" duration="35000" />
+      <workItem from="1738667376794" duration="59000" />
+      <workItem from="1738667448126" duration="111000" />
+      <workItem from="1738667566913" duration="814000" />
+      <workItem from="1738669083125" duration="134000" />
+      <workItem from="1738669226643" duration="127000" />
+      <workItem from="1738669361405" duration="29000" />
+      <workItem from="1738669399204" duration="63000" />
+      <workItem from="1738669470789" duration="22000" />
+      <workItem from="1738669501464" duration="110000" />
+      <workItem from="1738669618687" duration="17000" />
+      <workItem from="1738669644385" duration="91000" />
+      <workItem from="1738669741585" duration="16000" />
+      <workItem from="1738669767400" duration="60000" />
+      <workItem from="1738669834570" duration="41000" />
+      <workItem from="1738669883756" duration="31000" />
+      <workItem from="1738669922704" duration="264000" />
+      <workItem from="1738691393733" duration="433000" />
+      <workItem from="1738691836839" duration="75000" />
+      <workItem from="1738691920811" duration="19000" />
+      <workItem from="1739315051289" duration="2939000" />
+      <workItem from="1760533050156" duration="485000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add introductory notebooks for Python and pandas basics&#10;&#10;Created two new Jupyter notebooks: one for basic Python concepts and another for introductory data manipulation with pandas. These notebooks include explanatory content, examples, and exercises for new learners.">
+      <option name="closed" value="true" />
+      <created>1738428737946</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738428737946</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Remove .venv directory from the repository&#10;&#10;The .venv directory is unnecessary and should be excluded from version control. This prevents accidental commits of local virtual environment files.">
+      <option name="closed" value="true" />
+      <created>1738428832868</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738428832868</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Remove &quot;Beginning with Python&quot; Jupyter notebook.&#10;&#10;The notebook &quot;1. Beginning with Python.ipynb&quot; has been deleted. It is no longer needed or has been replaced by other materials in the project. This improves the repository's organization and ensures only relevant files are retained.">
+      <option name="closed" value="true" />
+      <created>1738428857101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738428857101</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update dependencies in requirements.txt&#10;&#10;Removed unused or outdated dependencies to streamline the file. Updated `jupyterlab`, `pandas`, `numpy`, and `matplotlib` to their latest versions for compatibility and improved functionality.">
+      <option name="closed" value="true" />
+      <created>1738429281719</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738429281719</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Remove .vscode/settings.json file.&#10;&#10;Deleted the VSCode settings file to clean up the repository. The removed file contained editor configurations and Python-specific settings, which may no longer be relevant or required. This simplifies the repo and avoids unintentional overrides of local editor preferences.">
+      <option name="closed" value="true" />
+      <created>1738429339014</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738429339014</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Remove pre-commit hooks, `.python-version`, and poetry setup.&#10;&#10;This commit removes configuration files related to pre-commit hooks, `.python-version`, the `linestripper.py` utility script, and the `poetry.lock` file. These deletions indicate a shift in tooling or project configuration, streamlining the codebase.">
+      <option name="closed" value="true" />
+      <created>1738429701401</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738429701401</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update the use of load magic to provide solution to a more direct &quot;cat&quot; approach, instructions has also be updated">
+      <option name="closed" value="true" />
+      <created>1738433999389</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738433999389</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update README with simplified Miniconda-based environment setup&#10;&#10;Replaced pip-tools and pyenv setup instructions with a clearer guide for using Miniconda. This ensures easier environment management for attendees, reducing complexity and improving accessibility for both Windows and Unix users. Updated the contact method to use email directly for inquiries.">
+      <option name="closed" value="true" />
+      <created>1738449203353</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738449203353</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update CHANGELOG for version 2.0.0 release&#10;&#10;Added details of version 2.0.0, which simplifies setup and improves accessibility by restructuring notebooks. Notable changes include using `!cat` to load solutions, ensuring compatibility across different environments.">
+      <option name="closed" value="true" />
+      <created>1738449455624</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738449455624</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add Google Colab setup instructions to README&#10;&#10;Included step-by-step instructions for setting up the workshop in Google Colab, complete with visual aids and example scripts. Added all related media assets to the repository to support these instructions.">
+      <option name="closed" value="true" />
+      <created>1739316834449</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739316834449</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update image icon widths in README instructions  &#10;&#10;Adjusted the widths of the file and add code icons in the README for improved visual clarity. This ensures better alignment and consistency in the documentation layout.">
+      <option name="closed" value="true" />
+      <created>1739317083175</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739317083175</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add introductory notebooks for Python and pandas basics&#10;&#10;Created two new Jupyter notebooks: one for basic Python concepts and another for introductory data manipulation with pandas. These notebooks include explanatory content, examples, and exercises for new learners." />
+    <MESSAGE value="Remove .venv directory from the repository&#10;&#10;The .venv directory is unnecessary and should be excluded from version control. This prevents accidental commits of local virtual environment files." />
+    <MESSAGE value="Remove &quot;Beginning with Python&quot; Jupyter notebook.&#10;&#10;The notebook &quot;1. Beginning with Python.ipynb&quot; has been deleted. It is no longer needed or has been replaced by other materials in the project. This improves the repository's organization and ensures only relevant files are retained." />
+    <MESSAGE value="Update dependencies in requirements.txt&#10;&#10;Removed unused or outdated dependencies to streamline the file. Updated `jupyterlab`, `pandas`, `numpy`, and `matplotlib` to their latest versions for compatibility and improved functionality." />
+    <MESSAGE value="Remove .vscode/settings.json file.&#10;&#10;Deleted the VSCode settings file to clean up the repository. The removed file contained editor configurations and Python-specific settings, which may no longer be relevant or required. This simplifies the repo and avoids unintentional overrides of local editor preferences." />
+    <MESSAGE value="Remove pre-commit hooks, `.python-version`, and poetry setup.&#10;&#10;This commit removes configuration files related to pre-commit hooks, `.python-version`, the `linestripper.py` utility script, and the `poetry.lock` file. These deletions indicate a shift in tooling or project configuration, streamlining the codebase." />
+    <MESSAGE value="Remove introductory content from Python notebook.&#10;&#10;Removed excess instructional and introductory text, focusing the notebook on practical Python exercises. This streamlines the content for a more concise and hands-on learning experience." />
+    <MESSAGE value="Update the use of load magic to provide solution to a more direct &quot;cat&quot; approach, instructions has also be updated" />
+    <MESSAGE value="Update README with simplified Miniconda-based environment setup&#10;&#10;Replaced pip-tools and pyenv setup instructions with a clearer guide for using Miniconda. This ensures easier environment management for attendees, reducing complexity and improving accessibility for both Windows and Unix users. Updated the contact method to use email directly for inquiries." />
+    <MESSAGE value="Update CHANGELOG for version 2.0.0 release&#10;&#10;Added details of version 2.0.0, which simplifies setup and improves accessibility by restructuring notebooks. Notable changes include using `!cat` to load solutions, ensuring compatibility across different environments." />
+    <MESSAGE value="Add Google Colab setup instructions to README&#10;&#10;Included step-by-step instructions for setting up the workshop in Google Colab, complete with visual aids and example scripts. Added all related media assets to the repository to support these instructions." />
+    <MESSAGE value="Update image icon widths in README instructions  &#10;&#10;Adjusted the widths of the file and add code icons in the README for improved visual clarity. This ensures better alignment and consistency in the documentation layout." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update image icon widths in README instructions  &#10;&#10;Adjusted the widths of the file and add code icons in the README for improved visual clarity. This ensures better alignment and consistency in the documentation layout." />
+  </component>
+</project>
