@@ -19,13 +19,14 @@
 
 ### Accessing the materials in browser
 
-During the workshop, we provide the materials for beginners using a JupyterLite server. The materials are currently available in [English](https://humbledata.org/online-workshop/lab/index.html), [Spanish](https://humbledata.org/online_workshop_spanish/lab/index.html) and [Italian](https://humbledata.org/online-workshop-italian-v2/lab/index.html). Please contact us if you'd like to help out the project by translating the materials into other languages!  
+During the workshop, we provide the materials for beginners using a JupyterLite server. The materials are currently available in [English](https://humbledata.org/online-workshop/lab/index.html), [Spanish](https://humbledata.org/online_workshop_spanish/lab/index.html), [Italian](https://humbledata.org/online-workshop-italian-v2/lab/index.html) and [Brazilian Portuguese](https://humbledata.org/online_workshop_ptbr/lab/index.html). Please contact us if you'd like to help out the project by translating the materials into other languages!  
 **The easiest way to access the materials for beginners is to use our [JupyterLite](https://jupyterlite.readthedocs.io/en/stable/) server.** Select a language below to get started:
 
 The materials can also be cloned from our [GitHub repo](https://github.com/HumbleData/beginners-data-workshop). If you want to use the materials this way, you will need to install them locally. Instructions on how to do this are provided below. Don't worry if you've never done this before—these instructions are designed for complete beginners and will walk you through each step.
 - [English](https://humbledata.org/online-workshop/lab/index.html)
 - [Spanish](https://humbledata.org/online_workshop_spanish/lab/index.html)
-- [Italian](https://humbledata.org/online-workshop-italian-v2/lab/index.html).
+- [Italian](https://humbledata.org/online-workshop-italian-v2/lab/index.html)
+- [Brazilian Portuguese](https://humbledata.org/online_workshop_ptbr/lab/index.html).
 
 Please contact us if you'd like to help out the project by translating the materials into other languages! 
 
